@@ -20,8 +20,10 @@ export const BRANDS = [
     "targetMarket": "Style-conscious women aged 28–50 who appreciate quiet luxury, thoughtful design and genuine craftsmanship. Fashion editors, creative professionals and style leaders who invest deliberately.",
     "sizeRange": {
       "au": "5 – 10",
-      "eu": "36 – 41"
+      "eu": "36 – 41",
+      "fitting": "True to size — size up for wider feet, down for narrower feet. EU 35–42."
     },
+    "fitting": "True to size — size up for wider feet, down for narrower feet. EU 35–42.",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -59,8 +61,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 26–50 who value Bauhaus-inspired design, minimalism and European craftsmanship. Professionals and design-conscious consumers.",
     "sizeRange": {
       "au": "5 – 10",
-      "eu": "36 – 41"
+      "eu": "36 – 41",
+      "fitting": "True to size, standard width. No wide or narrow options offered."
     },
+    "fitting": "True to size, standard width. No wide or narrow options offered.",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -98,8 +102,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–50 who value contemporary Australian design, quality construction and fashion-forward aesthetics. Professionals with established style.",
     "sizeRange": {
       "au": "5 – 11",
-      "eu": "36 – 42"
+      "eu": "36 – 42",
+      "fitting": "Runs small — size up. Leather uppers stretch 4–6 weeks with wear."
     },
+    "fitting": "Runs small — size up. Leather uppers stretch 4–6 weeks with wear.",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -137,8 +143,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 18–55 who appreciate fashion-forward design, contemporary style and accessible luxury. Trend-aware professionals and style-conscious consumers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size, standard width. Wider feet may need to size up; some styles note a narrower fit."
     },
+    "fitting": "True to size, standard width. Wider feet may need to size up; some styles note a narrower fit.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -176,8 +184,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 22–50 who value contemporary Australian design, quality construction and fashion-forward aesthetics. Professionals and creatives.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "Runs slightly small — recommend sizing up half a size. If between sizes, size up."
     },
+    "fitting": "Runs slightly small — recommend sizing up half a size. If between sizes, size up.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -215,8 +225,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 20–45 who value sustainability, ethical manufacturing and contemporary design. Environmentally conscious professionals and creatives.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size (style-dependent). Sandals may size down; boots may size up. Leather stretches with wear."
     },
+    "fitting": "True to size (style-dependent). Sandals may size down; boots may size up. Leather stretches with wear.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -254,8 +266,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–55 who appreciate Italian craftsmanship, statement footwear and designer heritage. Fashion-forward professionals and style leaders.",
     "sizeRange": {
       "au": "5 – 10",
-      "eu": "36 – 41"
+      "eu": "36 – 41",
+      "fitting": "True to size; pointed-toe styles run slightly small — recommend sizing up half a size. Leather stretches with wear."
     },
+    "fitting": "True to size; pointed-toe styles run slightly small — recommend sizing up half a size. Leather stretches with wear.",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -293,8 +307,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 35–65 who value heritage, precision engineering and understated luxury. Professionals and established style leaders who invest in quality.",
     "sizeRange": {
       "au": "5 – 10",
-      "eu": "36 – 41"
+      "eu": "36 – 41",
+      "fitting": "True to size to slightly narrow — size up half a size for wider feet or if between sizes."
     },
+    "fitting": "True to size to slightly narrow — size up half a size for wider feet or if between sizes.",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -332,8 +348,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 20–70 who value comfort, durability and timeless design. Healthcare workers, creative professionals and comfort-prioritizing women.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size. Narrow fits approximately 80% of women; Regular (wider) for those with broader feet or men. Allow 10mm heel room and 5mm toe room for the footbed to function correctly."
     },
+    "fitting": "True to size. Narrow fits approximately 80% of women; Regular (wider) for those with broader feet or men. Allow 10mm heel room and 5mm toe room for the footbed to function correctly.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -371,8 +389,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 28–55 who appreciate French design elegance, minimalism and refined taste. Style-conscious professionals and creatives.",
     "sizeRange": {
       "au": "5 – 10",
-      "eu": "36 – 41"
+      "eu": "36 – 41",
+      "fitting": "True to size (style-dependent). No dedicated wide or narrow width options — check individual product pages."
     },
+    "fitting": "True to size (style-dependent). No dedicated wide or narrow width options — check individual product pages.",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -410,8 +430,10 @@ export const BRANDS = [
     "targetMarket": "Fashion-forward women aged 22–45 who want statement occasion footwear and London fashion credibility at accessible price points.",
     "sizeRange": {
       "au": "5 – 11",
-      "eu": "36 – 42"
+      "eu": "36 – 42",
+      "fitting": "Collection line runs narrow (pointed and slingback styles). Comfort line suits medium-to-wide feet. Wide fit range (E–EE) available."
     },
+    "fitting": "Collection line runs narrow (pointed and slingback styles). Comfort line suits medium-to-wide feet. Wide fit range (E–EE) available.",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -449,8 +471,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 18–45 who appreciate fashion-forward design at accessible price points. Trend-aware professionals and fashion enthusiasts.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size, standard width. No half-size or wide-width options; measure foot length for best fit."
     },
+    "fitting": "True to size, standard width. No half-size or wide-width options; measure foot length for best fit.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -488,8 +512,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–50 who appreciate French luxury, contemporary elegance and design-forward style. Professionals and creatives with established style.",
     "sizeRange": {
       "au": "5 – 10",
-      "eu": "36 – 41"
+      "eu": "36 – 41",
+      "fitting": "True to size. Chunky styles (e.g. Woody) run roomier; sleek styles are more fitted. Check individual style notes."
     },
+    "fitting": "True to size. Chunky styles (e.g. Woody) run roomier; sleek styles are more fitted. Check individual style notes.",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -527,8 +553,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–70 who appreciate ultimate luxury, iconic red sole design and investment-grade footwear. Style leaders and luxury enthusiasts.",
     "sizeRange": {
       "au": "5 – 11",
-      "eu": "36 – 42"
+      "eu": "36 – 42",
+      "fitting": "Runs small and narrow — always recommend sizing up half a size. No width options; sleek lasts do not accommodate wide feet well."
     },
+    "fitting": "Runs small and narrow — always recommend sizing up half a size. No width options; sleek lasts do not accommodate wide feet well.",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -566,8 +594,10 @@ export const BRANDS = [
     "targetMarket": "Everyone aged 5–80; women seeking iconic casual style, self-expression through customization, timeless cultural relevance.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "Runs slightly small and narrow — size up half a size. Wide width available for broader feet."
     },
+    "fitting": "Runs slightly small and narrow — size up half a size. Wide width available for broader feet.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -605,8 +635,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 5–80 who prioritize comfort and practicality; healthcare workers, busy professionals, comfort-seekers.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "Relaxed fit overall. Women's styles run slightly narrower than men's — if between sizes, size up for comfort."
     },
+    "fitting": "Relaxed fit overall. Women's styles run slightly narrower than men's — if between sizes, size up for comfort.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -644,8 +676,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 40–80 who prioritize comfort, Australian heritage and quality construction. Health-conscious and comfort-seeking women.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "Wide fitting (C width) — roomier than standard Diana Ferrari. Designed for broader or higher-volume feet."
     },
+    "fitting": "Wide fitting (C width) — roomier than standard Diana Ferrari. Designed for broader or higher-volume feet.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -683,8 +717,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 40–80 who value comfort, Australian heritage and quality construction. Professional women and comfort-prioritizers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "Standard width (B). Wider-fit options available in select styles. Measure feet in socks where applicable."
     },
+    "fitting": "Standard width (B). Wider-fit options available in select styles. Measure feet in socks where applicable.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -722,8 +758,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 30–80 who value comfort, Scandinavian design and practical luxury. Professional and active women.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size. Half sizes and multiple widths available. Select styles feature removable insoles for adjustable fit."
     },
+    "fitting": "True to size. Half sizes and multiple widths available. Select styles feature removable insoles for adjustable fit.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -761,8 +799,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–80 who value Australian heritage, comfort and genuine sheepskin quality. Comfort-seekers and casual lifestyle advocates.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "Runs half a size small — size up if between sizes. Fits wide in foot and ankle area; laces allow further adjustability."
     },
+    "fitting": "Runs half a size small — size up if between sizes. Fits wide in foot and ankle area; laces allow further adjustability.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -800,8 +840,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 40–80 who prioritize comfort, Australian heritage and practical quality. Professional women and comfort-seekers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "Varies by style. Medium and wide widths available. Size range EU 35–43. Contact staff for personalised fitting advice."
     },
+    "fitting": "Varies by style. Medium and wide widths available. Size range EU 35–43. Contact staff for personalised fitting advice.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -839,8 +881,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 30–80 who value comfort, Australian heritage and accessible quality. Practical women and comfort-prioritizers.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "True to size. Standard and wide widths available in select styles. Fit varies between sport-hybrid and classic leather styles."
     },
+    "fitting": "True to size. Standard and wide widths available in select styles. Fit varies between sport-hybrid and classic leather styles.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -878,8 +922,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 18–50 who appreciate fashion-forward design, branded luxury and contemporary American style. Trend-aware consumers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size (style-dependent). Half sizes available. Fit may vary between styles — check product reviews."
     },
+    "fitting": "True to size (style-dependent). Half sizes available. Fit may vary between styles — check product reviews.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -917,8 +963,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 35–75 who value comfort, European craftsmanship and quality construction. Professional women and comfort-seekers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size — measure both foot length and width when selecting size. Width accommodation varies by style."
     },
+    "fitting": "True to size — measure both foot length and width when selecting size. Width accommodation varies by style.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -956,8 +1004,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 35–75 who value comfort, Australian heritage and professional appearance. Professional women and quality-seekers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size (US sizing standard), standard width. Check individual product pages for style-specific fit notes."
     },
+    "fitting": "True to size (US sizing standard), standard width. Check individual product pages for style-specific fit notes.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -995,8 +1045,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 30–80 who value comfort, American heritage and accessible quality. Practical women and comfort-prioritizers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size. Many styles in wide and extra-wide. Features 'Fit Left Fit Right' technology — each foot can be fitted to its own width independently."
     },
+    "fitting": "True to size. Many styles in wide and extra-wide. Features 'Fit Left Fit Right' technology — each foot can be fitted to its own width independently.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1034,8 +1086,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–55 who appreciate luxury craftsmanship, statement footwear and designer prestige. Style leaders and women who invest in luxury.",
     "sizeRange": {
       "au": "5 – 10",
-      "eu": "36 – 41"
+      "eu": "36 – 41",
+      "fitting": "Tends toward narrow — size up half a size for wider feet. Leather styles stretch with wear."
     },
+    "fitting": "Tends toward narrow — size up half a size for wider feet. Leather styles stretch with wear.",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -1073,8 +1127,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 20–50 who appreciate London fashion, contemporary design and statement style. Fashion-forward professionals and creatives.",
     "sizeRange": {
       "au": "5 – 11",
-      "eu": "36 – 42"
+      "eu": "36 – 42",
+      "fitting": "True to size. Somewhat wide toe box — can benefit wider feet but may feel loose on narrow feet. Try in-store first."
     },
+    "fitting": "True to size. Somewhat wide toe box — can benefit wider feet but may feel loose on narrow feet. Try in-store first.",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -1112,8 +1168,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 20–60 who value heritage, sporty elegance and timeless French design. Tennis heritage enthusiasts and classic style advocates.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size, medium width. Wide width available in select styles. Size up half when wearing thick socks with sneakers."
     },
+    "fitting": "True to size, medium width. Wide width available in select styles. Size up half when wearing thick socks with sneakers.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1151,8 +1209,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 22–50 who appreciate contemporary Australian design, quality construction and fashion-forward aesthetics. Professionals and creatives.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size (style-dependent). Check individual product descriptions for per-style sizing advice."
     },
+    "fitting": "True to size (style-dependent). Check individual product descriptions for per-style sizing advice.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1190,8 +1250,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 30–60 who appreciate Australian design, contemporary luxury and artistic craftsmanship. Style leaders and design collectors.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size with a close fit — size up if between sizes. Natural leather stretches with wear."
     },
+    "fitting": "True to size with a close fit — size up if between sizes. Natural leather stretches with wear.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1229,8 +1291,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–60 who appreciate luxury heels, artistic design and impeccable craftsmanship. Style icons and women with refined taste.",
     "sizeRange": {
       "au": "5 – 11",
-      "eu": "36 – 42"
+      "eu": "36 – 42",
+      "fitting": "Runs small and narrow — always recommend sizing up half a size. Pointed pumps fit tighter than open styles."
     },
+    "fitting": "Runs small and narrow — always recommend sizing up half a size. Pointed pumps fit tighter than open styles.",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -1268,8 +1332,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–55 who appreciate urban style, comfort engineering and contemporary American design. Professionals and city dwellers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "Runs narrow — recommend sizing up half a size, especially for wider feet."
     },
+    "fitting": "Runs narrow — recommend sizing up half a size, especially for wider feet.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1307,8 +1373,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–60 who appreciate branded American luxury, contemporary design and iconic style. Urban professionals and luxury consumers.",
     "sizeRange": {
       "au": "5 – 11",
-      "eu": "36 – 42"
+      "eu": "36 – 42",
+      "fitting": "True to size. Wide-width options available. Heels and sandals may benefit from half a size up."
     },
+    "fitting": "True to size. Wide-width options available. Heels and sandals may benefit from half a size up.",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -1346,8 +1414,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–55 who appreciate accessible luxury, contemporary American design and iconic branded footwear. Urban professionals and style-conscious consumers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size. Wide-width options available. Heels and sandals may benefit from half a size up."
     },
+    "fitting": "True to size. Wide-width options available. Heels and sandals may benefit from half a size up.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1385,8 +1455,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 40–80 who value comfort, American heritage and professional quality. Professional women and comfort-seekers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size. Narrow (N), medium (M), wide (W) and extra-wide (WW) widths available — excellent for mixed-width feet."
     },
+    "fitting": "True to size. Narrow (N), medium (M), wide (W) and extra-wide (WW) widths available — excellent for mixed-width feet.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1424,8 +1496,10 @@ export const BRANDS = [
     "targetMarket": "Women 25–50, sustainability-conscious, values-led, professional, minimalist wardrobe seekers.",
     "sizeRange": {
       "au": "6 – 10",
-      "eu": "36 – 40"
+      "eu": "36 – 40",
+      "fitting": "True to size. Handmade — slight variation between pairs. Use the on-page size guide; contact staff for specific width queries."
     },
+    "fitting": "True to size. Handmade — slight variation between pairs. Use the on-page size guide; contact staff for specific width queries.",
     "sizeMin": 6,
     "sizeMax": 10,
     "features": [
@@ -1463,8 +1537,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 15–70 who value comfort, performance, durability and active lifestyle integration. Athletes and comfort-seeking professionals.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "True to size. The most extensive width range available — from narrow (2A/B) to standard (D) to wide (2E/4E/6E). Recommend a thumb's width of space in the toe box."
     },
+    "fitting": "True to size. The most extensive width range available — from narrow (2A/B) to standard (D) to wide (2E/4E/6E). Recommend a thumb's width of space in the toe box.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1502,8 +1578,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 18–50 who value running performance, innovation and contemporary athletic aesthetics. Serious runners and active professionals.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "True to size. Wide width available in select road running models (Cloudrunner, Cloudsurfer, Cloudgo). Size up half from casual shoe size for performance fit."
     },
+    "fitting": "True to size. Wide width available in select road running models (Cloudrunner, Cloudsurfer, Cloudgo). Size up half from casual shoe size for performance fit.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1541,8 +1619,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 30–60 who appreciate Spanish craftsmanship, minimalist elegance and sophisticated design. Style leaders with refined taste.",
     "sizeRange": {
       "au": "5 – 10",
-      "eu": "36 – 41"
+      "eu": "36 – 41",
+      "fitting": "True to size to slightly small/narrow — size up half a size for wider feet or snug toe boxes."
     },
+    "fitting": "True to size to slightly small/narrow — size up half a size for wider feet or snug toe boxes.",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -1580,8 +1660,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 15–50 who value athletic heritage, style-forward design and performance. Athletes and fashion-forward active consumers.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "Runs slightly small — size up half a size. No dedicated wide width; wider feet should size up for comfort."
     },
+    "fitting": "Runs slightly small — size up half a size. No dedicated wide width; wider feet should size up for comfort.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1619,8 +1701,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 15–55 who value athletic performance, fitness-focused lifestyle and style. Athletes and active professionals.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "True to size. Wide and extra-wide widths available in select styles. Half sizes available across the range."
     },
+    "fitting": "True to size. Wide and extra-wide widths available in select styles. Half sizes available across the range.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1658,8 +1742,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–70 who value comfort, quality Australian design and understated style. Professionals and comfort-prioritizing women.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size, standard width only. No wide or narrow options — fit varies by individual style."
     },
+    "fitting": "True to size, standard width only. No wide or narrow options — fit varies by individual style.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1697,8 +1783,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–80 who value comfort technology, casual lifestyle and practical quality. Active women and comfort-prioritizers.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "True to size. Classic Fit (standard), Relaxed Fit (roomier toe box), Wide Fit and Extra Wide available — same length, different widths."
     },
+    "fitting": "True to size. Classic Fit (standard), Relaxed Fit (roomier toe box), Wide Fit and Extra Wide available — same length, different widths.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1736,8 +1824,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 20–60 who value casual luxury, durability and timeless American heritage. Coastal lifestyle advocates and professionals seeking comfortable style.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size; leather styles may run slightly small — size down half. Narrow, standard, wide and extra-wide widths available."
     },
+    "fitting": "True to size; leather styles may run slightly small — size down half. Narrow, standard, wide and extra-wide widths available.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1775,8 +1865,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 18–50 who appreciate fashion-forward design, trend awareness and accessible luxury. Style-conscious professionals.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size, standard width (B for women). Pointed-toe and slim styles run tighter — size up half a size."
     },
+    "fitting": "True to size, standard width (B for women). Pointed-toe and slim styles run tighter — size up half a size.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1814,8 +1906,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 25–60 who appreciate American luxury vision, sophisticated design and forward-thinking craftsmanship. Style leaders and women with established taste.",
     "sizeRange": {
       "au": "5 – 11",
-      "eu": "36 – 42"
+      "eu": "36 – 42",
+      "fitting": "True to size. Narrow, medium and wide widths available in half sizes — the most width options in this category."
     },
+    "fitting": "True to size. Narrow, medium and wide widths available in half sizes — the most width options in this category.",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -1853,8 +1947,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 18–70 who value Italian heritage, classic casual style and timeless design. Style traditionalists and comfort seekers.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "Runs slightly large — size down half a size for best fit. Standard width; canvas uppers have minimal stretch."
     },
+    "fitting": "Runs slightly large — size down half a size for best fit. Standard width; canvas uppers have minimal stretch.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1892,8 +1988,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 20–60 who appreciate American heritage, classic style with contemporary updates, accessible luxury. Established style leaders.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size. Standard, wide and extra-wide widths available. Casual and sporty styles tend to have a relaxed fit."
     },
+    "fitting": "True to size. Standard, wide and extra-wide widths available. Casual and sporty styles tend to have a relaxed fit.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1931,8 +2029,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 20–50 who appreciate contemporary Australian design, fashion-forward styles and quality construction. Fashion professionals and trend-aware consumers.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size; some styles noted as running small — check individual product descriptions for per-style advice."
     },
+    "fitting": "True to size; some styles noted as running small — check individual product descriptions for per-style advice.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1970,8 +2070,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 15–80 who value sheepskin comfort, Australian heritage and timeless casual style. Comfort-seekers and lifestyle advocates.",
     "sizeRange": {
       "au": "5 – 13",
-      "eu": "36 – 45"
+      "eu": "36 – 45",
+      "fitting": "True to size; boots designed snug initially — sheepskin molds to the foot with wear. Wide fit in select styles. Dakota slippers run small — size up half."
     },
+    "fitting": "True to size; boots designed snug initially — sheepskin molds to the foot with wear. Wide fit in select styles. Dakota slippers run small — size up half.",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -2009,8 +2111,10 @@ export const BRANDS = [
     "targetMarket": "Women aged 18–50 who value sustainability, ethical manufacturing and contemporary design. Environmentally conscious professionals and creatives.",
     "sizeRange": {
       "au": "5 – 12",
-      "eu": "36 – 43"
+      "eu": "36 – 43",
+      "fitting": "True to size to slightly small; slightly narrow fit — size up half a size for wider feet. V-10 runs large (size down half); Esplar and Campo run true."
     },
+    "fitting": "True to size to slightly small; slightly narrow fit — size up half a size for wider feet. V-10 runs large (size down half); Esplar and Campo run true.",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [

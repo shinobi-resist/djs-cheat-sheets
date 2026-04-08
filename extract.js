@@ -156,6 +156,7 @@ function parseSizeRange(text) {
   return {
     au: extractKV(text, 'Australian Sizes'),
     eu: extractKV(text, 'European Sizes'),
+    fitting: extractKV(text, 'Fitting'),
   };
 }
 
@@ -238,6 +239,7 @@ async function processDOCX(filePath, brandName) {
     price,
     targetMarket,
     sizeRange,
+    fitting: sizeRange.fitting || '',
     sizeMin,
     sizeMax,
     features,
