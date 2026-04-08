@@ -106,7 +106,7 @@
     /* === LIST VIEW === */
     #list-view {
       padding: 16px;
-      padding-bottom: 80px; /* space for FAB */
+      padding-bottom: 24px;
     }
 
     .search-container {
@@ -351,21 +351,6 @@
       font-weight: 700;
     }
 
-    /* === FAB === */
-    .fab-container {
-      position: fixed;
-      bottom: 24px;
-      right: 24px;
-      z-index: 50;
-    }
-
-    .detail-active .fab-container { display: none; }
-
-    md-fab {
-      --md-fab-container-color: #000;
-      --md-fab-icon-color: #FFF;
-      --md-fab-label-text-color: #FFF;
-    }
 
     /* === EMPTY STATE === */
     .empty-state {
@@ -384,8 +369,6 @@
       font-size: 16px;
     }
 
-    /* Hide detail FAB */
-    .detail-active .fab-container { display: none; }
   </style>
 </head>
 <body>
@@ -448,12 +431,6 @@
   <!-- Detail View -->
   <div id="detail-view"></div>
 
-  <!-- FAB: View All Brands -->
-  <div class="fab-container" id="fab-container">
-    <md-fab label="All Brands" id="all-brands-fab">
-      <md-icon slot="icon">menu_book</md-icon>
-    </md-fab>
-  </div>
 
   <script type="module">
     import { BRANDS } from './brands.js';
@@ -471,7 +448,6 @@
     const detailView = document.getElementById('detail-view');
     const headerBrandName = document.getElementById('header-brand-name');
     const backBtn = document.getElementById('back-btn');
-    const allBrandsFab = document.getElementById('all-brands-fab');
 
     // Filter chips
     const chips = {
@@ -709,21 +685,6 @@
 
     // Back button
     backBtn.addEventListener('click', showList);
-
-    // All Brands FAB — show all brands in list (clear filters)
-    allBrandsFab.addEventListener('click', () => {
-      activeFilter = 'All';
-      searchQuery = '';
-      activeSizeFilter = null;
-      activeFittingFilter = null;
-      searchField.value = '';
-      Object.values(chips).forEach(c => c.selected = false);
-      chips['All'].selected = true;
-      Object.values(sizeChips).forEach(c => c.selected = false);
-      Object.values(fittingChips).forEach(c => c.selected = false);
-      renderList();
-      window.scrollTo(0, 0);
-    });
 
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
