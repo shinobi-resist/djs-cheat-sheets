@@ -24,6 +24,7 @@ export const BRANDS = [
       "fitting": "True to size — size up for wider feet, down for narrower feet. EU 35–42."
     },
     "fitting": "True to size — size up for wider feet, down for narrower feet. EU 35–42.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -65,6 +66,7 @@ export const BRANDS = [
       "fitting": "True to size, standard width. No wide or narrow options offered."
     },
     "fitting": "True to size, standard width. No wide or narrow options offered.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -106,6 +108,7 @@ export const BRANDS = [
       "fitting": "Runs small — size up. Leather uppers stretch 4–6 weeks with wear."
     },
     "fitting": "Runs small — size up. Leather uppers stretch 4–6 weeks with wear.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -147,6 +150,7 @@ export const BRANDS = [
       "fitting": "True to size, standard width. Wider feet may need to size up; some styles note a narrower fit."
     },
     "fitting": "True to size, standard width. Wider feet may need to size up; some styles note a narrower fit.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -188,6 +192,7 @@ export const BRANDS = [
       "fitting": "Runs slightly small — recommend sizing up half a size. If between sizes, size up."
     },
     "fitting": "Runs slightly small — recommend sizing up half a size. If between sizes, size up.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -229,6 +234,7 @@ export const BRANDS = [
       "fitting": "True to size (style-dependent). Sandals may size down; boots may size up. Leather stretches with wear."
     },
     "fitting": "True to size (style-dependent). Sandals may size down; boots may size up. Leather stretches with wear.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -270,6 +276,7 @@ export const BRANDS = [
       "fitting": "True to size; pointed-toe styles run slightly small — recommend sizing up half a size. Leather stretches with wear."
     },
     "fitting": "True to size; pointed-toe styles run slightly small — recommend sizing up half a size. Leather stretches with wear.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -311,6 +318,7 @@ export const BRANDS = [
       "fitting": "True to size to slightly narrow — size up half a size for wider feet or if between sizes."
     },
     "fitting": "True to size to slightly narrow — size up half a size for wider feet or if between sizes.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -352,6 +360,7 @@ export const BRANDS = [
       "fitting": "True to size. Narrow fits approximately 80% of women; Regular (wider) for those with broader feet or men. Allow 10mm heel room and 5mm toe room for the footbed to function correctly."
     },
     "fitting": "True to size. Narrow fits approximately 80% of women; Regular (wider) for those with broader feet or men. Allow 10mm heel room and 5mm toe room for the footbed to function correctly.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -393,6 +402,7 @@ export const BRANDS = [
       "fitting": "True to size (style-dependent). No dedicated wide or narrow width options — check individual product pages."
     },
     "fitting": "True to size (style-dependent). No dedicated wide or narrow width options — check individual product pages.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -434,6 +444,7 @@ export const BRANDS = [
       "fitting": "Collection line runs narrow (pointed and slingback styles). Comfort line suits medium-to-wide feet. Wide fit range (E–EE) available."
     },
     "fitting": "Collection line runs narrow (pointed and slingback styles). Comfort line suits medium-to-wide feet. Wide fit range (E–EE) available.",
+    "fittingType": "both",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -475,6 +486,7 @@ export const BRANDS = [
       "fitting": "True to size, standard width. No half-size or wide-width options; measure foot length for best fit."
     },
     "fitting": "True to size, standard width. No half-size or wide-width options; measure foot length for best fit.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -516,6 +528,7 @@ export const BRANDS = [
       "fitting": "True to size. Chunky styles (e.g. Woody) run roomier; sleek styles are more fitted. Check individual style notes."
     },
     "fitting": "True to size. Chunky styles (e.g. Woody) run roomier; sleek styles are more fitted. Check individual style notes.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -557,6 +570,7 @@ export const BRANDS = [
       "fitting": "Runs small and narrow — always recommend sizing up half a size. No width options; sleek lasts do not accommodate wide feet well."
     },
     "fitting": "Runs small and narrow — always recommend sizing up half a size. No width options; sleek lasts do not accommodate wide feet well.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -598,6 +612,7 @@ export const BRANDS = [
       "fitting": "Runs slightly small and narrow — size up half a size. Wide width available for broader feet."
     },
     "fitting": "Runs slightly small and narrow — size up half a size. Wide width available for broader feet.",
+    "fittingType": "both",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -639,6 +654,7 @@ export const BRANDS = [
       "fitting": "Relaxed fit overall. Women's styles run slightly narrower than men's — if between sizes, size up for comfort."
     },
     "fitting": "Relaxed fit overall. Women's styles run slightly narrower than men's — if between sizes, size up for comfort.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -680,6 +696,7 @@ export const BRANDS = [
       "fitting": "Wide fitting (C width) — roomier than standard Diana Ferrari. Designed for broader or higher-volume feet."
     },
     "fitting": "Wide fitting (C width) — roomier than standard Diana Ferrari. Designed for broader or higher-volume feet.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -721,6 +738,7 @@ export const BRANDS = [
       "fitting": "Standard width (B). Wider-fit options available in select styles. Measure feet in socks where applicable."
     },
     "fitting": "Standard width (B). Wider-fit options available in select styles. Measure feet in socks where applicable.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -762,6 +780,7 @@ export const BRANDS = [
       "fitting": "True to size. Half sizes and multiple widths available. Select styles feature removable insoles for adjustable fit."
     },
     "fitting": "True to size. Half sizes and multiple widths available. Select styles feature removable insoles for adjustable fit.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -803,6 +822,7 @@ export const BRANDS = [
       "fitting": "Runs half a size small — size up if between sizes. Fits wide in foot and ankle area; laces allow further adjustability."
     },
     "fitting": "Runs half a size small — size up if between sizes. Fits wide in foot and ankle area; laces allow further adjustability.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -844,6 +864,7 @@ export const BRANDS = [
       "fitting": "Varies by style. Medium and wide widths available. Size range EU 35–43. Contact staff for personalised fitting advice."
     },
     "fitting": "Varies by style. Medium and wide widths available. Size range EU 35–43. Contact staff for personalised fitting advice.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -885,6 +906,7 @@ export const BRANDS = [
       "fitting": "True to size. Standard and wide widths available in select styles. Fit varies between sport-hybrid and classic leather styles."
     },
     "fitting": "True to size. Standard and wide widths available in select styles. Fit varies between sport-hybrid and classic leather styles.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -926,6 +948,7 @@ export const BRANDS = [
       "fitting": "True to size (style-dependent). Half sizes available. Fit may vary between styles — check product reviews."
     },
     "fitting": "True to size (style-dependent). Half sizes available. Fit may vary between styles — check product reviews.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -967,6 +990,7 @@ export const BRANDS = [
       "fitting": "True to size — measure both foot length and width when selecting size. Width accommodation varies by style."
     },
     "fitting": "True to size — measure both foot length and width when selecting size. Width accommodation varies by style.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1008,6 +1032,7 @@ export const BRANDS = [
       "fitting": "True to size (US sizing standard), standard width. Check individual product pages for style-specific fit notes."
     },
     "fitting": "True to size (US sizing standard), standard width. Check individual product pages for style-specific fit notes.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1049,6 +1074,7 @@ export const BRANDS = [
       "fitting": "True to size. Many styles in wide and extra-wide. Features 'Fit Left Fit Right' technology — each foot can be fitted to its own width independently."
     },
     "fitting": "True to size. Many styles in wide and extra-wide. Features 'Fit Left Fit Right' technology — each foot can be fitted to its own width independently.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1090,6 +1116,7 @@ export const BRANDS = [
       "fitting": "Tends toward narrow — size up half a size for wider feet. Leather styles stretch with wear."
     },
     "fitting": "Tends toward narrow — size up half a size for wider feet. Leather styles stretch with wear.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -1131,6 +1158,7 @@ export const BRANDS = [
       "fitting": "True to size. Somewhat wide toe box — can benefit wider feet but may feel loose on narrow feet. Try in-store first."
     },
     "fitting": "True to size. Somewhat wide toe box — can benefit wider feet but may feel loose on narrow feet. Try in-store first.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -1172,6 +1200,7 @@ export const BRANDS = [
       "fitting": "True to size, medium width. Wide width available in select styles. Size up half when wearing thick socks with sneakers."
     },
     "fitting": "True to size, medium width. Wide width available in select styles. Size up half when wearing thick socks with sneakers.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1213,6 +1242,7 @@ export const BRANDS = [
       "fitting": "True to size (style-dependent). Check individual product descriptions for per-style sizing advice."
     },
     "fitting": "True to size (style-dependent). Check individual product descriptions for per-style sizing advice.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1254,6 +1284,7 @@ export const BRANDS = [
       "fitting": "True to size with a close fit — size up if between sizes. Natural leather stretches with wear."
     },
     "fitting": "True to size with a close fit — size up if between sizes. Natural leather stretches with wear.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1295,6 +1326,7 @@ export const BRANDS = [
       "fitting": "Runs small and narrow — always recommend sizing up half a size. Pointed pumps fit tighter than open styles."
     },
     "fitting": "Runs small and narrow — always recommend sizing up half a size. Pointed pumps fit tighter than open styles.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -1336,6 +1368,7 @@ export const BRANDS = [
       "fitting": "Runs narrow — recommend sizing up half a size, especially for wider feet."
     },
     "fitting": "Runs narrow — recommend sizing up half a size, especially for wider feet.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1377,6 +1410,7 @@ export const BRANDS = [
       "fitting": "True to size. Wide-width options available. Heels and sandals may benefit from half a size up."
     },
     "fitting": "True to size. Wide-width options available. Heels and sandals may benefit from half a size up.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -1418,6 +1452,7 @@ export const BRANDS = [
       "fitting": "True to size. Wide-width options available. Heels and sandals may benefit from half a size up."
     },
     "fitting": "True to size. Wide-width options available. Heels and sandals may benefit from half a size up.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1459,6 +1494,7 @@ export const BRANDS = [
       "fitting": "True to size. Narrow (N), medium (M), wide (W) and extra-wide (WW) widths available — excellent for mixed-width feet."
     },
     "fitting": "True to size. Narrow (N), medium (M), wide (W) and extra-wide (WW) widths available — excellent for mixed-width feet.",
+    "fittingType": "both",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1500,6 +1536,7 @@ export const BRANDS = [
       "fitting": "True to size. Handmade — slight variation between pairs. Use the on-page size guide; contact staff for specific width queries."
     },
     "fitting": "True to size. Handmade — slight variation between pairs. Use the on-page size guide; contact staff for specific width queries.",
+    "fittingType": "",
     "sizeMin": 6,
     "sizeMax": 10,
     "features": [
@@ -1541,6 +1578,7 @@ export const BRANDS = [
       "fitting": "True to size. The most extensive width range available — from narrow (2A/B) to standard (D) to wide (2E/4E/6E). Recommend a thumb's width of space in the toe box."
     },
     "fitting": "True to size. The most extensive width range available — from narrow (2A/B) to standard (D) to wide (2E/4E/6E). Recommend a thumb's width of space in the toe box.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1582,6 +1620,7 @@ export const BRANDS = [
       "fitting": "True to size. Wide width available in select road running models (Cloudrunner, Cloudsurfer, Cloudgo). Size up half from casual shoe size for performance fit."
     },
     "fitting": "True to size. Wide width available in select road running models (Cloudrunner, Cloudsurfer, Cloudgo). Size up half from casual shoe size for performance fit.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1623,6 +1662,7 @@ export const BRANDS = [
       "fitting": "True to size to slightly small/narrow — size up half a size for wider feet or snug toe boxes."
     },
     "fitting": "True to size to slightly small/narrow — size up half a size for wider feet or snug toe boxes.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
@@ -1664,6 +1704,7 @@ export const BRANDS = [
       "fitting": "Runs slightly small — size up half a size. No dedicated wide width; wider feet should size up for comfort."
     },
     "fitting": "Runs slightly small — size up half a size. No dedicated wide width; wider feet should size up for comfort.",
+    "fittingType": "both",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1705,6 +1746,7 @@ export const BRANDS = [
       "fitting": "True to size. Wide and extra-wide widths available in select styles. Half sizes available across the range."
     },
     "fitting": "True to size. Wide and extra-wide widths available in select styles. Half sizes available across the range.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1746,6 +1788,7 @@ export const BRANDS = [
       "fitting": "True to size, standard width only. No wide or narrow options — fit varies by individual style."
     },
     "fitting": "True to size, standard width only. No wide or narrow options — fit varies by individual style.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1787,6 +1830,7 @@ export const BRANDS = [
       "fitting": "True to size. Classic Fit (standard), Relaxed Fit (roomier toe box), Wide Fit and Extra Wide available — same length, different widths."
     },
     "fitting": "True to size. Classic Fit (standard), Relaxed Fit (roomier toe box), Wide Fit and Extra Wide available — same length, different widths.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1828,6 +1872,7 @@ export const BRANDS = [
       "fitting": "True to size; leather styles may run slightly small — size down half. Narrow, standard, wide and extra-wide widths available."
     },
     "fitting": "True to size; leather styles may run slightly small — size down half. Narrow, standard, wide and extra-wide widths available.",
+    "fittingType": "both",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1869,6 +1914,7 @@ export const BRANDS = [
       "fitting": "True to size, standard width (B for women). Pointed-toe and slim styles run tighter — size up half a size."
     },
     "fitting": "True to size, standard width (B for women). Pointed-toe and slim styles run tighter — size up half a size.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -1910,6 +1956,7 @@ export const BRANDS = [
       "fitting": "True to size. Narrow, medium and wide widths available in half sizes — the most width options in this category."
     },
     "fitting": "True to size. Narrow, medium and wide widths available in half sizes — the most width options in this category.",
+    "fittingType": "both",
     "sizeMin": 5,
     "sizeMax": 11,
     "features": [
@@ -1951,6 +1998,7 @@ export const BRANDS = [
       "fitting": "Runs slightly large — size down half a size for best fit. Standard width; canvas uppers have minimal stretch."
     },
     "fitting": "Runs slightly large — size down half a size for best fit. Standard width; canvas uppers have minimal stretch.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -1992,6 +2040,7 @@ export const BRANDS = [
       "fitting": "True to size. Standard, wide and extra-wide widths available. Casual and sporty styles tend to have a relaxed fit."
     },
     "fitting": "True to size. Standard, wide and extra-wide widths available. Casual and sporty styles tend to have a relaxed fit.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -2033,6 +2082,7 @@ export const BRANDS = [
       "fitting": "True to size; some styles noted as running small — check individual product descriptions for per-style advice."
     },
     "fitting": "True to size; some styles noted as running small — check individual product descriptions for per-style advice.",
+    "fittingType": "",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
@@ -2074,6 +2124,7 @@ export const BRANDS = [
       "fitting": "True to size; boots designed snug initially — sheepskin molds to the foot with wear. Wide fit in select styles. Dakota slippers run small — size up half."
     },
     "fitting": "True to size; boots designed snug initially — sheepskin molds to the foot with wear. Wide fit in select styles. Dakota slippers run small — size up half.",
+    "fittingType": "wide",
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
@@ -2115,6 +2166,7 @@ export const BRANDS = [
       "fitting": "True to size to slightly small; slightly narrow fit — size up half a size for wider feet. V-10 runs large (size down half); Esplar and Campo run true."
     },
     "fitting": "True to size to slightly small; slightly narrow fit — size up half a size for wider feet. V-10 runs large (size down half); Esplar and Campo run true.",
+    "fittingType": "narrow",
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [

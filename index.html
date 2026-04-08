@@ -432,6 +432,14 @@
       </md-chip-set>
     </div>
 
+    <div class="filter-label">Fitting</div>
+    <div class="chip-scroller">
+      <md-chip-set id="fitting-chips">
+        <md-filter-chip label="Narrow / Runs Small" id="chip-narrow"></md-filter-chip>
+        <md-filter-chip label="Wide Available" id="chip-wide"></md-filter-chip>
+      </md-chip-set>
+    </div>
+
     <div class="results-count" id="results-count"></div>
 
     <md-list id="brand-list"></md-list>
@@ -454,6 +462,7 @@
     let activeFilter = 'All';
     let searchQuery = '';
     let activeSizeFilter = null; // null, 'small', or 'extended'
+    let activeFittingFilter = null; // null, 'narrow', or 'wide'
 
     // DOM refs
     const searchField = document.getElementById('search-field');
@@ -480,6 +489,12 @@
       'extended': document.getElementById('chip-extended'),
     };
 
+    // Fitting chip refs
+    const fittingChips = {
+      'narrow': document.getElementById('chip-narrow'),
+      'wide': document.getElementById('chip-wide'),
+    };
+
     function getFilteredBrands() {
       return BRANDS.filter(b => {
         const matchesDept = activeFilter === 'All' || b.department === activeFilter;
@@ -491,7 +506,13 @@
         } else if (activeSizeFilter === 'extended') {
           matchesSize = b.sizeMax >= 11;
         }
-        return matchesDept && matchesSearch && matchesSize;
+        let matchesFitting = true;
+        if (activeFittingFilter === 'narrow') {
+          matchesFitting = b.fittingType === 'narrow' || b.fittingType === 'both';
+        } else if (activeFittingFilter === 'wide') {
+          matchesFitting = b.fittingType === 'wide' || b.fittingType === 'both';
+        }
+        return matchesDept && matchesSearch && matchesSize && matchesFitting;
       });
     }
 
@@ -671,6 +692,21 @@
       });
     });
 
+    // Fitting filter chips (toggle on/off, independent of department and size)
+    Object.entries(fittingChips).forEach(([fitting, chip]) => {
+      chip.addEventListener('click', () => {
+        if (activeFittingFilter === fitting) {
+          activeFittingFilter = null;
+          chip.selected = false;
+        } else {
+          Object.values(fittingChips).forEach(c => c.selected = false);
+          chip.selected = true;
+          activeFittingFilter = fitting;
+        }
+        renderList();
+      });
+    });
+
     // Back button
     backBtn.addEventListener('click', showList);
 
@@ -679,10 +715,12 @@
       activeFilter = 'All';
       searchQuery = '';
       activeSizeFilter = null;
+      activeFittingFilter = null;
       searchField.value = '';
       Object.values(chips).forEach(c => c.selected = false);
       chips['All'].selected = true;
       Object.values(sizeChips).forEach(c => c.selected = false);
+      Object.values(fittingChips).forEach(c => c.selected = false);
       renderList();
       window.scrollTo(0, 0);
     });

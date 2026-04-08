@@ -160,6 +160,16 @@ function parseSizeRange(text) {
   };
 }
 
+function classifyFitting(fitting) {
+  const f = fitting.toLowerCase();
+  const isNarrow = /\bnarrow\b|runs small|runs slightly small/.test(f);
+  const isWide = /wide fit|wide width|wide and extra|extra.wide|roomier|relaxed fit|wide fitting|wider.fit|\bwide\b.*available/.test(f);
+  if (isNarrow && isWide) return 'both';
+  if (isNarrow) return 'narrow';
+  if (isWide) return 'wide';
+  return '';
+}
+
 function parseListItems(text) {
   // Split by double newlines to get items (mammoth separates paragraphs with \n\n)
   const items = text.split(/\n\n+/)
@@ -240,6 +250,7 @@ async function processDOCX(filePath, brandName) {
     targetMarket,
     sizeRange,
     fitting: sizeRange.fitting || '',
+    fittingType: classifyFitting(sizeRange.fitting || ''),
     sizeMin,
     sizeMax,
     features,
