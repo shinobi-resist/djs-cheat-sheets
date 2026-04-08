@@ -36,6 +36,12 @@
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
+    /* Focus-visible for keyboard navigation (WCAG 2.4.7) */
+    :focus-visible {
+      outline: 2px solid #000;
+      outline-offset: 2px;
+    }
+
     body {
       font-family: Arial, sans-serif;
       background: #FFFFFF;
@@ -134,7 +140,7 @@
 
     .results-count {
       font-size: 13px;
-      color: #79747E;
+      color: #595460;
       margin-bottom: 8px;
       padding-left: 4px;
     }
@@ -146,7 +152,7 @@
     }
 
     .trailing-icon {
-      color: #79747E;
+      color: #595460;
       font-size: 20px;
     }
 
@@ -159,7 +165,7 @@
       padding: 2px 8px;
       border-radius: 12px;
       background: #F0F0F0;
-      color: #79747E;
+      color: #595460;
       white-space: nowrap;
       margin-right: 4px;
     }
@@ -179,7 +185,7 @@
     /* Size filter label */
     .filter-label {
       font-size: 12px;
-      color: #79747E;
+      color: #595460;
       padding-left: 4px;
       margin-bottom: 4px;
     }
@@ -197,6 +203,10 @@
     @keyframes shimmer {
       0% { background-position: 200% 0; }
       100% { background-position: -200% 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .skeleton { animation: none; }
     }
 
     /* === DETAIL VIEW === */
@@ -221,7 +231,7 @@
 
     .brand-tagline {
       font-size: 14px;
-      color: #79747E;
+      color: #595460;
       margin-bottom: 16px;
       font-style: italic;
     }
@@ -242,6 +252,7 @@
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      margin: 0;
     }
 
     .section-body {
@@ -356,7 +367,7 @@
     .empty-state {
       text-align: center;
       padding: 48px 16px;
-      color: #79747E;
+      color: #595460;
     }
 
     .empty-state .material-symbols-outlined {
@@ -499,7 +510,7 @@
       if (filtered.length === 0) {
         brandList.innerHTML = `
           <div class="empty-state">
-            <span class="material-symbols-outlined">search_off</span>
+            <span class="material-symbols-outlined" aria-hidden="true">search_off</span>
             <p>No brands found</p>
           </div>
         `;
@@ -509,13 +520,14 @@
       brandList.innerHTML = filtered.map(brand => {
         const isExtended = brand.sizeMax >= 11;
         const badgeClass = isExtended ? 'size-badge extended' : 'size-badge';
+        const badgeLabel = isExtended ? `AU ${brand.sizeMin}-${brand.sizeMax}+` : `AU ${brand.sizeMin}-${brand.sizeMax}`;
         return `
         <md-list-item type="button" data-brand-id="${brand.id}">
           <span slot="headline">${brand.name}</span>
           <span slot="supporting-text">${getDeptFullName(brand.department)}</span>
           <span slot="end" class="list-end-area">
-            <span class="${badgeClass}">AU ${brand.sizeMin}-${brand.sizeMax}</span>
-            <span class="material-symbols-outlined trailing-icon">chevron_right</span>
+            <span class="${badgeClass}">${badgeLabel}</span>
+            <span class="material-symbols-outlined trailing-icon" aria-hidden="true">chevron_right</span>
           </span>
         </md-list-item>`;
       }).join('');
@@ -557,7 +569,7 @@
 
         <!-- History & Origins -->
         <div class="section-card">
-          <div class="section-header">Brand History & Origins</div>
+          <h2 class="section-header">Brand History & Origins</h2>
           <div class="section-body">
             ${brand.history.founded ? `<div class="kv-row"><span class="kv-label">Founded:</span> <span class="kv-value">${escapeHtml(brand.history.founded)}</span></div>` : ''}
             ${brand.history.origin ? `<div class="kv-row"><span class="kv-label">Origin:</span> <span class="kv-value">${escapeHtml(brand.history.origin)}</span></div>` : ''}
@@ -567,7 +579,7 @@
 
         <!-- Culture & Identity -->
         <div class="section-card">
-          <div class="section-header">Brand Culture & Identity</div>
+          <h2 class="section-header">Brand Culture & Identity</h2>
           <div class="section-body">
             ${(Array.isArray(brand.culture) ? brand.culture : [brand.culture])
               .map(p => `<p class="culture-para">${escapeHtml(p)}</p>`).join('')}
@@ -576,7 +588,7 @@
 
         <!-- Features & Benefits -->
         <div class="section-card">
-          <div class="section-header">Features & Benefits</div>
+          <h2 class="section-header">Features & Benefits</h2>
           <div class="section-body">
             <div class="fb-grid">
               <div class="fb-column">
@@ -597,7 +609,7 @@
 
         <!-- Price & Target Market + Size Range -->
         <div class="section-card">
-          <div class="section-header">Price, Target Market & Size Range</div>
+          <h2 class="section-header">Price, Target Market & Size Range</h2>
           <div class="section-body">
             ${brand.price ? `<div class="kv-row"><span class="kv-label">Price Point:</span> <span class="kv-value">${escapeHtml(brand.price)}</span></div>` : ''}
             ${brand.targetMarket ? `<div class="kv-row"><span class="kv-label">Target Market:</span> <span class="kv-value">${escapeHtml(brand.targetMarket)}</span></div>` : ''}
@@ -609,7 +621,7 @@
 
         <!-- Why Popular -->
         <div class="section-card">
-          <div class="section-header">Why Is This Brand Popular?</div>
+          <h2 class="section-header">Why Is This Brand Popular?</h2>
           <div class="section-body">
             <p class="popular-text">${escapeHtml(brand.whyPopular)}</p>
           </div>
@@ -617,7 +629,7 @@
 
         <!-- Selling Points -->
         <div class="section-card selling">
-          <div class="section-header">Selling Points</div>
+          <h2 class="section-header">Selling Points</h2>
           <div class="section-body">
             ${brand.sellingPoints.map((sp, i) => `
               <div class="sp-item"><span class="sp-num">${i + 1}</span>${escapeHtml(sp)}</div>
