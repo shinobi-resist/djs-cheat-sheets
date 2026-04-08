@@ -77,7 +77,7 @@ export const BRANDS = [
     "benefits": [
       "Leather that remembers your foot — after a few wears, these mold to your personal gait and foot shape, which means comfort increases with time, not decreases.",
       "One shoe, endless outfits — minimalist design means these transition from boardroom to weekend without looking out of place, making them the actual workhorse of a functional wardrobe.",
-      "Buy with confidence knowing every pair supports ethical labor and environmental responsibility — German transparency standards mean you know exactly where your shoes come from."
+      "Buy with confidence knowing every pair supports ethical labour and environmental responsibility — German transparency standards mean you know exactly where your shoes come from."
     ],
     "whyPopular": "Aeyde has been featured in Vogue Germany and international design publications for its commitment to ethical luxury. Architects and designers are vocal advocates — the brand appeals to professionals who understand proportion and craft. The Berlin design heritage gives the label credibility with consumers seeking European minimalism without fast-fashion compromises.",
     "sellingPoints": [
@@ -121,7 +121,7 @@ export const BRANDS = [
       "Australian design at a global standard — you're supporting a homegrown designer that has successfully built a worldwide presence.",
       "Quality that justifies the investment — AJE craftsmanship is visible, and shoes last because construction is taken seriously."
     ],
-    "whyPopular": "AJE is stocked at major retailers including Anthropologie globally, with flagship presence in Sydney. The brand has a strong Instagram following and is favored by Australian fashion influencers and media. Edwina Forest is recognized as a leading Australian designer. The brand appeals to women seeking contemporary luxury with Australian heritage.",
+    "whyPopular": "AJE is stocked at major retailers including Anthropologie globally, with flagship presence in Sydney. The brand has a strong Instagram following and is favoured by Australian fashion influencers and media. Edwina Forest is recognised as a leading Australian designer. The brand appeals to women seeking contemporary luxury with Australian heritage.",
     "sellingPoints": [
       "AJE is genuinely Australian success — a brand built in Sydney that's now global. David Jones carrying it means you're supporting Australian design on the world stage.",
       "These are made for the modern woman who appreciates contemporary aesthetics and quality without overpaying for logo luxury. That's a genuinely smart investment.",
@@ -160,7 +160,7 @@ export const BRANDS = [
     ],
     "benefits": [
       "Fashion leadership at accessible price points — you feel current and style-aware.",
-      "Recognized global brand credibility — Aldo is understood as fashion-forward.",
+      "Recognised global brand credibility — Aldo is understood as fashion-forward.",
       "Contemporary design that works for multiple settings from casual to professional."
     ],
     "whyPopular": "Aldo is available at major retailers globally. The brand appeals to fashion-forward consumers seeking accessibility. Consistent fashion relevance creates recognition and loyalty.",
@@ -240,7 +240,7 @@ export const BRANDS = [
     "features": [
       "Vegan leather alternatives made from innovative materials that perform and feel like premium leather without animal products.",
       "Minimalist contemporary designs that work across seasons and styles.",
-      "Ethical manufacturing in Portugal with transparent supply chains and fair labor practices."
+      "Ethical manufacturing in Portugal with transparent supply chains and fair labour practices."
     ],
     "benefits": [
       "Guilt-free luxury — you wear these knowing the entire supply chain aligns with your values; no ethical compromises, just quality and style.",
@@ -289,7 +289,7 @@ export const BRANDS = [
       "Confidence through craftsmanship — knowing that artisans hand-finished your shoes creates an emotional connection and confidence when you wear them.",
       "Investment pieces that hold value — Aquazzura shoes are sought after by fashion resellers and collectors because they combine artistry with timeless appeal."
     ],
-    "whyPopular": "Aquazzura is stocked at Harrods, Selfridges, and other prestige retailers globally. The brand is favored by celebrities and fashion editors who appreciate the balance of art and wearability. Vogue and Harper's Bazaar regularly feature new collections. The \"Mystic\" heel and \"Wild\" sandal are iconic, sought-after styles that create anticipation around new releases.",
+    "whyPopular": "Aquazzura is stocked at Harrods, Selfridges, and other prestige retailers globally. The brand is favoured by celebrities and fashion editors who appreciate the balance of art and wearability. Vogue and Harper's Bazaar regularly feature new collections. The \"Mystic\" heel and \"Wild\" sandal are iconic, sought-after styles that create anticipation around new releases.",
     "sellingPoints": [
       "David Jones is genuinely selective about Italian designers — Aquazzura at Chatswood means you're shopping where the store has specifically chosen to invest in quality and heritage craftsmanship.",
       "These are made in limited quantities, and new styles sell quickly both in-store and online. If you've found something that speaks to you today, it's worth taking it home because restocking can take months.",
@@ -322,7 +322,7 @@ export const BRANDS = [
     "sizeMin": 5,
     "sizeMax": 10,
     "features": [
-      "Swiss-engineered construction with precisely calibrated comfort — every measurement, heel height and sole thickness is optimized for all-day wearability.",
+      "Swiss-engineered construction with precisely calibrated comfort — every measurement, heel height and sole thickness is optimised for all-day wearability.",
       "Premium leather sourced from the finest European tanneries — vegetable-tanned leather that softens naturally with wear.",
       "Goodyear welt construction (on select styles) — a shoemaking technique that allows re-soling, extending the life of the shoe indefinitely."
     ],
@@ -331,7 +331,7 @@ export const BRANDS = [
       "Multi-year lifespan — proper construction and re-soleable designs mean these shoes can last 10+ years with care, which is genuinely rare in contemporary footwear.",
       "Timeless style from a brand that's been relevant for 170 years — when a shoe survives that long, it's because it actually transcends fashion."
     ],
-    "whyPopular": "Bally is stocked at the world's most prestigious department stores — Harrods, Galeries Lafayette, Selfridges. The brand has been favored by royalty, celebrities and style leaders for over a century. Bally's commitment to quality has been consistent for 170 years, which is rare in luxury fashion. The brand is recognized globally as the standard for heritage shoemaking.",
+    "whyPopular": "Bally is stocked at the world's most prestigious department stores — Harrods, Galeries Lafayette, Selfridges. The brand has been favoured by royalty, celebrities and style leaders for over a century. Bally's commitment to quality has been consistent for 170 years, which is rare in luxury fashion. The brand is recognised globally as the standard for heritage shoemaking.",
     "sellingPoints": [
       "Bally has been making shoes longer than almost any other brand still operating — 170+ years of continuous shoemaking heritage. That's not marketing; that's proof of commitment to quality.",
       "David Jones stocks Bally because the quality aligns with the store's own reputation for discerning customers — you're shopping where the retailer has backed the brand with trust.",
@@ -353,7 +353,7 @@ export const BRANDS = [
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $140 – $420",
-    "targetMarket": "Women aged 20–70 who value comfort, durability and timeless design. Healthcare workers, creative professionals and comfort-prioritizing women.",
+    "targetMarket": "Women aged 20–70 who value comfort, durability and timeless design. Healthcare workers, creative professionals and comfort-prioritising women.",
     "sizeRange": {
       "au": "5 – 12",
       "eu": "36 – 43",
@@ -391,7 +391,7 @@ export const BRANDS = [
       "manufactured": "France (Parisian workshops)"
     },
     "culture": [
-      "Carel is the essence of Parisian minimalism — refined, understated and impossibly elegant. Founded in Paris in 1985, the brand focuses on simple silhouettes executed with obsessive attention to detail. A pair of Carel shoes is like a perfect white shirt — it doesn't announce itself, but everyone recognizes the quality and taste. Parisian chic distilled into footwear.",
+      "Carel is the essence of Parisian minimalism — refined, understated and impossibly elegant. Founded in Paris in 1985, the brand focuses on simple silhouettes executed with obsessive attention to detail. A pair of Carel shoes is like a perfect white shirt — it doesn't announce itself, but everyone recognises the quality and taste. Parisian chic distilled into footwear.",
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $380 – $620",
@@ -415,7 +415,7 @@ export const BRANDS = [
       "A true uniform piece — Carel shoes work with everything, from jeans to dresses, creating an effortless Parisian aesthetic whether you're trying or not.",
       "Quality so discreet that it speaks volumes — when your shoes are this refined, other people notice the care you take with yourself."
     ],
-    "whyPopular": "Carel is stocked at luxury retailers like Lane Crawford, Browns Fashion and independent high-end boutiques across Europe and Asia. The brand is favored by fashion insiders and minimalism advocates. Parisian style icons choose Carel for its alignment with understated elegance. The brand has a cult following among women who understand that real luxury is quiet.",
+    "whyPopular": "Carel is stocked at luxury retailers like Lane Crawford, Browns Fashion and independent high-end boutiques across Europe and Asia. The brand is favoured by fashion insiders and minimalism advocates. Parisian style icons choose Carel for its alignment with understated elegance. The brand has a cult following among women who understand that real luxury is quiet.",
     "sellingPoints": [
       "Parisian minimalism is hard to find outside of Paris boutiques. David Jones Chatswood carries Carel, which means you're getting access to that Parisian refinement without the airfare.",
       "These work with everything you own — a Carel flat or pump becomes the foundation of a functional wardrobe because it doesn't compete with other pieces. That's efficiency and elegance.",
@@ -541,7 +541,7 @@ export const BRANDS = [
       "Pieces that feel both current and timeless — Chloé has a gift for creating shoes that feel of-the-moment but won't feel dated in two years.",
       "Elevated femininity that feels empowering — the design language celebrates confidence, not coy, which resonates with women who feel powerful in their own style."
     ],
-    "whyPopular": "Chloé is stocked at Harrods, Selfridges, and major luxury retailers globally. The brand is a favorite of celebrities, fashion editors and style influencers. Runway presentations are covered by international fashion media, and new designs are eagerly anticipated. The brand has a loyal customer base that follows new collections season to season.",
+    "whyPopular": "Chloé is stocked at Harrods, Selfridges, and major luxury retailers globally. The brand is a favourite of celebrities, fashion editors and style influencers. Runway presentations are covered by international fashion media, and new designs are eagerly anticipated. The brand has a loyal customer base that follows new collections season to season.",
     "sellingPoints": [
       "Chloé is a direct competitor to brands like Gucci and Valentino but with a more refined, feminine perspective. David Jones carrying it means you're shopping where luxury standards are seriously curated.",
       "These are design-forward enough to feel current, but Chloé's heritage ensures they won't feel dated — that's a balance that's hard to get right.",
@@ -559,7 +559,7 @@ export const BRANDS = [
       "manufactured": "Italy and France (luxury workshops)"
     },
     "culture": [
-      "Christian Louboutin is the ultimate luxury heel designer. The iconic red sole is recognized worldwide as the status symbol of luxury footwear. Louboutin represents absolute pinnacle luxury — uncompromising craftsmanship, artistic vision and cultural cachet.",
+      "Christian Louboutin is the ultimate luxury heel designer. The iconic red sole is recognised worldwide as the status symbol of luxury footwear. Louboutin represents absolute pinnacle luxury — uncompromising craftsmanship, artistic vision and cultural cachet.",
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $800 – $2000+",
@@ -579,13 +579,13 @@ export const BRANDS = [
       "Artistic design details including hand-embellishments and innovative construction techniques."
     ],
     "benefits": [
-      "Global luxury status symbol — a Louboutin red sole is recognized and understood as ultimate luxury investment.",
+      "Global luxury status symbol — a Louboutin red sole is recognised and understood as ultimate luxury investment.",
       "Artistic investment pieces — these are wearable art created by a visionary designer.",
       "Confidence from owning the most coveted luxury heels — these create immediate authority and presence."
     ],
-    "whyPopular": "Christian Louboutin is stocked at luxury retailers globally including Harrods and Selfridges. The brand is the red carpet favorite worn by celebrities and public figures globally. Fashion editorials regularly feature new designs. The red sole itself is a cultural icon.",
+    "whyPopular": "Christian Louboutin is stocked at luxury retailers globally including Harrods and Selfridges. The brand is the red carpet favourite worn by celebrities and public figures globally. Fashion editorials regularly feature new designs. The red sole itself is a cultural icon.",
     "sellingPoints": [
-      "Christian Louboutin is the most recognized luxury heel designer globally — the red sole is literally the status symbol of luxury footwear.",
+      "Christian Louboutin is the most recognised luxury heel designer globally — the red sole is literally the status symbol of luxury footwear.",
       "David Jones carrying Louboutin as a concession means you have access to the ultimate luxury heels in an intimate setting with expert service.",
       "If you're going to invest in a single pair of heels at ultimate luxury level, Louboutin is the choice that transcends trend."
     ]
@@ -605,7 +605,7 @@ export const BRANDS = [
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $80 – $200",
-    "targetMarket": "Everyone aged 5–80; women seeking iconic casual style, self-expression through customization, timeless cultural relevance.",
+    "targetMarket": "Everyone aged 5–80; women seeking iconic casual style, self-expression through customisation, timeless cultural relevance.",
     "sizeRange": {
       "au": "5 – 13",
       "eu": "36 – 45",
@@ -618,7 +618,7 @@ export const BRANDS = [
     "features": [
       "Iconic silhouette unchanged in essential design since 1917 — proof of perfect design.",
       "Canvas construction that's breathable, flexible and improves with wear.",
-      "Customization options allowing personal expression."
+      "Customisation options allowing personal expression."
     ],
     "benefits": [
       "Cultural icon status — when you wear Converse, you're part of 105+ years of cultural history and style continuity.",
@@ -643,11 +643,11 @@ export const BRANDS = [
       "manufactured": "Various facilities globally"
     },
     "culture": [
-      "Crocs revolutionized casual footwear by proving that comfort and style don't have to be mutually exclusive. What started as practical healthcare footwear became a cultural phenomenon and fashion statement.",
+      "Crocs revolutionised casual footwear by proving that comfort and style don't have to be mutually exclusive. What started as practical healthcare footwear became a cultural phenomenon and fashion statement.",
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $60 – $180",
-    "targetMarket": "Women aged 5–80 who prioritize comfort and practicality; healthcare workers, busy professionals, comfort-seekers.",
+    "targetMarket": "Women aged 5–80 who prioritise comfort and practicality; healthcare workers, busy professionals, comfort-seekers.",
     "sizeRange": {
       "au": "5 – 13",
       "eu": "36 – 45",
@@ -660,14 +660,14 @@ export const BRANDS = [
     "features": [
       "Proprietary Croslite foam technology that's lightweight, cushioned and ergonomic.",
       "Ventilation holes for breathability and quick drying.",
-      "Customization through charms allowing personal expression."
+      "Customisation through charms allowing personal expression."
     ],
     "benefits": [
       "All-day comfort that's actually engineered, not imagined — your feet feel supported and happy, which matters if you're on your feet.",
       "Practicality meets style — you're not sacrificing fashion for comfort.",
       "Healthcare-proven durability — if medical professionals trust these for 12-hour shifts, they're genuinely durable."
     ],
-    "whyPopular": "Crocs went from utilitarian to fashion icon through strategic collaborations and social media engagement. The brand appeals to comfort-prioritizing consumers. Celebrity adoption boosted fashion credibility. Customization creates community.",
+    "whyPopular": "Crocs went from utilitarian to fashion icon through strategic collaborations and social media engagement. The brand appeals to comfort-prioritising consumers. Celebrity adoption boosted fashion credibility. Customisation creates community.",
     "sellingPoints": [
       "Crocs invented a category and proved that comfort innovation is legitimate design — the fact that healthcare professionals wear them speaks volumes about actual performance.",
       "David Jones carrying Crocs reflects how the brand transcended utilitarian origins to become genuine fashion.",
@@ -685,11 +685,11 @@ export const BRANDS = [
       "manufactured": "Vietnam, India"
     },
     "culture": [
-      "DF Supersoft is an Australian heritage brand known for exceptional comfort and practical design. The brand represents women's footwear that prioritizes wellbeing alongside style.",
+      "DF Supersoft is an Australian heritage brand known for exceptional comfort and practical design. The brand represents women's footwear that prioritises wellbeing alongside style.",
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $100 – $280",
-    "targetMarket": "Women aged 40–80 who prioritize comfort, Australian heritage and quality construction. Health-conscious and comfort-seeking women.",
+    "targetMarket": "Women aged 40–80 who prioritise comfort, Australian heritage and quality construction. Health-conscious and comfort-seeking women.",
     "sizeRange": {
       "au": "5 – 12",
       "eu": "36 – 43",
@@ -709,7 +709,7 @@ export const BRANDS = [
       "Australian heritage and understanding of Australian lifestyle.",
       "Value-driven pricing that reflects practical investment."
     ],
-    "whyPopular": "DF Supersoft is established in Australian retail with multi-generational loyalty. The brand appeals to comfort-prioritizing consumers. Australian heritage creates local affinity.",
+    "whyPopular": "DF Supersoft is established in Australian retail with multi-generational loyalty. The brand appeals to comfort-prioritising consumers. Australian heritage creates local affinity.",
     "sellingPoints": [
       "DF Supersoft is genuinely Australian comfort expertise — designed for Australian women's needs and lifestyle.",
       "David Jones carrying DF Supersoft reflects the brand's established position in Australian retail and trust.",
@@ -797,7 +797,7 @@ export const BRANDS = [
     "sellingPoints": [
       "Ecco has 60+ years of Danish expertise in comfort innovation — that's research and development investment in foot health.",
       "David Jones carrying Ecco means you have access to medical-grade comfort from a heritage brand.",
-      "If comfort is your priority, Ecco offers genuinely engineered support from a brand that specializes in that."
+      "If comfort is your priority, Ecco offers genuinely engineered support from a brand that specialises in that."
     ]
   },
   {
@@ -811,7 +811,7 @@ export const BRANDS = [
       "manufactured": "Australia (sheepskin production)"
     },
     "culture": [
-      "EMU Australia is an Australian heritage brand specializing in authentic sheepskin footwear. Founded by Rose Bowyer, the brand represents Australian craftsmanship and genuine product quality.",
+      "EMU Australia is an Australian heritage brand specialising in authentic sheepskin footwear. Founded by Rose Bowyer, the brand represents Australian craftsmanship and genuine product quality.",
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $140 – $380",
@@ -857,7 +857,7 @@ export const BRANDS = [
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $100 – $300",
-    "targetMarket": "Women aged 40–80 who prioritize comfort, Australian heritage and practical quality. Professional women and comfort-seekers.",
+    "targetMarket": "Women aged 40–80 who prioritise comfort, Australian heritage and practical quality. Professional women and comfort-seekers.",
     "sizeRange": {
       "au": "5 – 12",
       "eu": "36 – 43",
@@ -958,7 +958,7 @@ export const BRANDS = [
     ],
     "benefits": [
       "Fashion leadership at accessible price points — you feel current and stylish.",
-      "Recognized branded quality that signals fashion awareness.",
+      "Recognised branded quality that signals fashion awareness.",
       "Contemporary design that works for multiple settings."
     ],
     "whyPopular": "Guess is stocked globally at department stores and specialty retailers. The brand has maintained fashion relevance for 40+ years. Celebrity associations reinforce style credentials.",
@@ -1087,7 +1087,7 @@ export const BRANDS = [
       "Accessible pricing reflecting practical investment philosophy.",
       "Reliability from proven, consistent brand heritage."
     ],
-    "whyPopular": "Hush Puppies is available globally and appeals to comfort-prioritizing consumers. The brand has multi-generational loyalty. Consistency creates trust and reliability.",
+    "whyPopular": "Hush Puppies is available globally and appeals to comfort-prioritising consumers. The brand has multi-generational loyalty. Consistency creates trust and reliability.",
     "sellingPoints": [
       "Hush Puppies has been making comfort footwear since 1958 — 65+ years of proven expertise.",
       "David Jones carrying Hush Puppies means you have access to tested American comfort heritage.",
@@ -1105,7 +1105,7 @@ export const BRANDS = [
       "manufactured": "Italy (luxury Italian shoemaking)"
     },
     "culture": [
-      "Jimmy Choo is synonymous with luxury heels and glamorous footwear. Founded in 1996 by Malaysian shoemaker Jimmy Choo and British businesswoman Tamara Mellon, the brand revolutionized the luxury shoe market by offering impeccable craftsmanship with contemporary design. Jimmy Choo represents confidence, glamour and the power of a perfect heel.",
+      "Jimmy Choo is synonymous with luxury heels and glamorous footwear. Founded in 1996 by Malaysian shoemaker Jimmy Choo and British businesswoman Tamara Mellon, the brand revolutionised the luxury shoe market by offering impeccable craftsmanship with contemporary design. Jimmy Choo represents confidence, glamour and the power of a perfect heel.",
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $500 – $900",
@@ -1129,9 +1129,9 @@ export const BRANDS = [
       "Immediate elevated sophistication — a Jimmy Choo heel transforms an outfit and signals luxury and refined taste instantly.",
       "A shoe that holds value — Jimmy Choo is sought after by vintage luxury resellers because the quality and timelessness ensure lasting appeal."
     ],
-    "whyPopular": "Jimmy Choo is stocked at luxury retailers worldwide including Harrods, Saks Fifth Avenue and Selfridges. The brand is a red-carpet favorite worn by celebrities and public figures. Fashion editorials regularly feature new collections. The brand name itself is synonymous with luxury heels globally — one of the few shoe brands that non-fashion people recognize as luxury.",
+    "whyPopular": "Jimmy Choo is stocked at luxury retailers worldwide including Harrods, Saks Fifth Avenue and Selfridges. The brand is a red-carpet favourite worn by celebrities and public figures. Fashion editorials regularly feature new collections. The brand name itself is synonymous with luxury heels globally — one of the few shoe brands that non-fashion people recognise as luxury.",
     "sellingPoints": [
-      "Jimmy Choo is one of the most recognized luxury heel brands globally — when people see these, they recognize the investment and taste. That matters if you're buying for impact.",
+      "Jimmy Choo is one of the most recognised luxury heel brands globally — when people see these, they recognise the investment and taste. That matters if you're buying for impact.",
       "David Jones stocks the full current range, which means you can try different heel heights and styles in one place. Good luck doing that at many other retailers.",
       "Limited edition designs and seasonal styles can sell out quickly. If you've found a style you love today, take it home — these are collectible, and stockouts happen fast."
     ]
@@ -1273,7 +1273,7 @@ export const BRANDS = [
       "manufactured": "Australia and Italy (boutique production)"
     },
     "culture": [
-      "Le Monde Beryl is a globally recognized Australian luxury label created by designer Beryl Sokoloff. The brand represents contemporary artistic vision with unwavering commitment to craftsmanship and sustainability. Every Le Monde Beryl shoe is a wearable artwork — conceptual, beautiful and built to last.",
+      "Le Monde Beryl is a globally recognised Australian luxury label created by designer Beryl Sokoloff. The brand represents contemporary artistic vision with unwavering commitment to craftsmanship and sustainability. Every Le Monde Beryl shoe is a wearable artwork — conceptual, beautiful and built to last.",
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $380 – $650",
@@ -1288,18 +1288,18 @@ export const BRANDS = [
     "sizeMin": 5,
     "sizeMax": 12,
     "features": [
-      "Handcrafted designs with innovative materials and construction techniques — artistic approach to shoemaking that prioritizes expression and wearability equally.",
+      "Handcrafted designs with innovative materials and construction techniques — artistic approach to shoemaking that prioritises expression and wearability equally.",
       "Limited edition and bespoke options — many styles are produced in small quantities, making them genuinely exclusive.",
-      "Commitment to sustainable practices including vegetable-tanned leather, ethical labor and careful material sourcing."
+      "Commitment to sustainable practices including vegetable-tanned leather, ethical labour and careful material sourcing."
     ],
     "benefits": [
       "Wear a conversation piece — Le Monde Beryl shoes are often artistic statements; they signal taste, design literacy and support for innovation.",
       "Genuine exclusivity — small production runs mean you're not seeing your shoes on everyone else, which appeals to women who value individuality.",
-      "Support local creative genius — every purchase supports an Australian designer who is recognized globally for innovation in luxury footwear."
+      "Support local creative genius — every purchase supports an Australian designer who is recognised globally for innovation in luxury footwear."
     ],
-    "whyPopular": "Le Monde Beryl is stocked at luxury retailers globally and is featured regularly in international fashion publications. Beryl Sokoloff is recognized as one of Australia's leading contemporary fashion designers. The brand appeals to design collectors and fashion-forward consumers who appreciate artistic footwear. Australian cultural pride makes Le Monde Beryl a point of local interest.",
+    "whyPopular": "Le Monde Beryl is stocked at luxury retailers globally and is featured regularly in international fashion publications. Beryl Sokoloff is recognised as one of Australia's leading contemporary fashion designers. The brand appeals to design collectors and fashion-forward consumers who appreciate artistic footwear. Australian cultural pride makes Le Monde Beryl a point of local interest.",
     "sellingPoints": [
-      "Le Monde Beryl is genuinely Australian but globally recognized — David Jones carrying it means you're supporting a local designer who has made it on the international stage.",
+      "Le Monde Beryl is genuinely Australian but globally recognised — David Jones carrying it means you're supporting a local designer who has made it on the international stage.",
       "Beryl Sokoloff's designs are conversations between art and functionality. These aren't everyday shoes; they're investment pieces that you'll actually wear and treasure.",
       "The limited edition and bespoke nature means these are actually exclusive — you're not sharing your shoes with thousands of other people, which is rare in luxury retail."
     ]
@@ -1335,13 +1335,13 @@ export const BRANDS = [
       "Artistic design details including hand-embellished finishes, intricate stitching and refined proportions that are unmistakable."
     ],
     "benefits": [
-      "Wear a fashion icon's masterpiece — a Manolo Blahnik heel is recognized globally as the apex of luxury and taste; it signals serious investment and design literacy.",
+      "Wear a fashion icon's masterpiece — a Manolo Blahnik heel is recognised globally as the apex of luxury and taste; it signals serious investment and design literacy.",
       "The comfort of exceptional engineering — despite their elegance, Manolo heels are engineered to be surprisingly wearable because the designer obsesses over proportion and balance.",
       "An heirloom piece — Manolo shoes are so beautifully made and timeless that they're passed down; they're not just shoes, they're wearable art."
     ],
-    "whyPopular": "Manolo Blahnik is stocked at Harrods, Saks Fifth Avenue, Neiman Marcus and the world's most prestigious retailers. The designer is featured in fashion editorials globally and is considered a legend by fashion professionals. Celebrities and public figures are frequently photographed wearing Manolo. The brand has such cultural cachet that \"Manolos\" are instantly recognized even by non-fashion people.",
+    "whyPopular": "Manolo Blahnik is stocked at Harrods, Saks Fifth Avenue, Neiman Marcus and the world's most prestigious retailers. The designer is featured in fashion editorials globally and is considered a legend by fashion professionals. Celebrities and public figures are frequently photographed wearing Manolo. The brand has such cultural cachet that \"Manolos\" are instantly recognised even by non-fashion people.",
     "sellingPoints": [
-      "Manolo Blahnik is the most recognized luxury heel designer in the world — when someone sees these, they immediately recognize the investment and taste. That's not hype; that's the result of 50 years of uncompromising artistry.",
+      "Manolo Blahnik is the most recognised luxury heel designer in the world — when someone sees these, they immediately recognise the investment and taste. That's not hype; that's the result of 50 years of uncompromising artistry.",
       "David Jones carries Manolo, which means you're shopping where the store has backed this legend with premium positioning — these are treated with the reverence they deserve.",
       "If you've found a Manolo that speaks to you, take it home. Cult styles from Manolo are sought after by collectors, and availability can be unpredictable."
     ]
@@ -1381,7 +1381,7 @@ export const BRANDS = [
       "Urban practicality — designed for city living, commuting and professional environments where comfort and appearance both matter.",
       "Investment pieces that perform under real-world use — these are built for living, not just displaying."
     ],
-    "whyPopular": "Marc Joseph is stocked at Nordstrom, Bloomingdale's and urban-focused retailers. The brand appeals to professionals who spend time on their feet and demand both style and comfort. Customer reviews emphasize the comfort factor. The brand has a loyal following of repeat customers.",
+    "whyPopular": "Marc Joseph is stocked at Nordstrom, Bloomingdale's and urban-focused retailers. The brand appeals to professionals who spend time on their feet and demand both style and comfort. Customer reviews emphasise the comfort factor. The brand has a loyal following of repeat customers.",
     "sellingPoints": [
       "Marc Joseph designs specifically for urban professionals — shoes that look sharp in a boardroom but feel like they're engineered for walking around the city all day.",
       "David Jones carrying the brand means you have access to thoughtful American design at reasonable price points — that's genuine value in the contemporary market.",
@@ -1419,11 +1419,11 @@ export const BRANDS = [
       "Seasonal collections balancing trend awareness with timeless appeal."
     ],
     "benefits": [
-      "American luxury status that's accessible — recognized branded quality at reasonable price.",
+      "American luxury status that's accessible — recognised branded quality at reasonable price.",
       "Contemporary design that feels current and intentional.",
       "Investment pieces that maintain relevance across seasons."
     ],
-    "whyPopular": "Michael Kors is available globally at luxury retailers. The brand is recognized internationally for American luxury. Consistent brand positioning creates trust and recognition.",
+    "whyPopular": "Michael Kors is available globally at luxury retailers. The brand is recognised internationally for American luxury. Consistent brand positioning creates trust and recognition.",
     "sellingPoints": [
       "Michael Kors is one of the few American luxury brands with global recognition — that's genuine international credibility.",
       "David Jones carrying Michael Kors as a concession means you have access to curated contemporary American luxury.",
@@ -1461,11 +1461,11 @@ export const BRANDS = [
       "Seasonal collections that balance fashion trends with timeless appeal."
     ],
     "benefits": [
-      "Iconic American luxury that's accessible — you get recognized branded quality and design at reasonable price points.",
+      "Iconic American luxury that's accessible — you get recognised branded quality and design at reasonable price points.",
       "Confidence through recognition — the brand is globally known, so you're wearing something that signals style and understanding of American luxury.",
       "Contemporary designs that work for modern living — these transition from professional to casual settings effortlessly."
     ],
-    "whyPopular": "Michael Kors is stocked at major department stores globally. The brand is recognized internationally as synonymous with American luxury. Seasonal collections are highly anticipated. Celebrity endorsements and fashion media coverage keep the brand relevant and desirable.",
+    "whyPopular": "Michael Kors is stocked at major department stores globally. The brand is recognised internationally as synonymous with American luxury. Seasonal collections are highly anticipated. Celebrity endorsements and fashion media coverage keep the brand relevant and desirable.",
     "sellingPoints": [
       "Michael Kors is one of the few American luxury brands that maintains global recognition and presence — David Jones carrying the full range means you have access to all current seasons.",
       "These represent real value in luxury retail — you're getting iconic American designer status at price points that are genuinely achievable.",
@@ -1483,7 +1483,7 @@ export const BRANDS = [
       "manufactured": "Globally"
     },
     "culture": [
-      "Naturalizer is an American heritage brand with 95+ years of expertise in women's footwear. The brand philosophy centers on natural comfort and professional style.",
+      "Naturalizer is an American heritage brand with 95+ years of expertise in women's footwear. The brand philosophy centres on natural comfort and professional style.",
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $120 – $340",
@@ -1545,7 +1545,7 @@ export const BRANDS = [
       "Carbon-neutral shipping, 100% biodegradable packaging from quarry waste — the entire business model reflects environmental values."
     ],
     "benefits": [
-      "Leather that improves with wear — softens and develops beautiful patina, meaning they actually become YOUR shoes over time; you're not buying standardized footwear, you're creating a personal relationship with your shoes.",
+      "Leather that improves with wear — softens and develops beautiful patina, meaning they actually become YOUR shoes over time; you're not buying standardised footwear, you're creating a personal relationship with your shoes.",
       "Guilt-free luxury — every purchase supports a solar-powered atelier, ethical wages, and water-clean tanning; you feel as good buying them as wearing them.",
       "Effortlessly versatile — minimalist silhouettes transition from boardroom to weekend without changing shoes, making them the actual foundational shoe in a capsule wardrobe."
     ],
@@ -1567,7 +1567,7 @@ export const BRANDS = [
       "manufactured": "USA, Vietnam, India"
     },
     "culture": [
-      "New Balance is a performance footwear brand with heritage in athletic innovation. The brand represents the intersection of sports performance and lifestyle wearability. New Balance prioritizes genuine foot comfort and biomechanical support.",
+      "New Balance is a performance footwear brand with heritage in athletic innovation. The brand represents the intersection of sports performance and lifestyle wearability. New Balance prioritises genuine foot comfort and biomechanical support.",
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $100 – $300",
@@ -1582,7 +1582,7 @@ export const BRANDS = [
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
-      "Performance-engineered cushioning technology optimized for impact absorption and energy return.",
+      "Performance-engineered cushioning technology optimised for impact absorption and energy return.",
       "Supportive midsole construction with proven athletic performance standards.",
       "Breathable uppers designed for activity and all-day comfort."
     ],
@@ -1591,7 +1591,7 @@ export const BRANDS = [
       "Performance credibility from actual athletic use — if serious athletes trust these, they're genuinely functional.",
       "Lifestyle integration — performance features that work for active people without feeling costume-y."
     ],
-    "whyPopular": "New Balance sponsors serious athletes and is trusted by runners and active professionals. The brand appeals to function-prioritizing consumers. Sports performance endorsements create credibility.",
+    "whyPopular": "New Balance sponsors serious athletes and is trusted by runners and active professionals. The brand appeals to function-prioritising consumers. Sports performance endorsements create credibility.",
     "sellingPoints": [
       "New Balance has been engineering foot comfort since 1906 — that heritage in performance means these aren't guesses about comfort, they're engineered.",
       "David Jones carrying New Balance reflects the brand's genuine positioning as performance footwear that works for lifestyle and activity.",
@@ -1625,7 +1625,7 @@ export const BRANDS = [
     "sizeMax": 13,
     "features": [
       "CloudTech cushioning technology — innovative responsive cushioning that sets the brand apart.",
-      "Lightweight design optimized for running and active movement.",
+      "Lightweight design optimised for running and active movement.",
       "Contemporary aesthetic that bridges performance and lifestyle wear."
     ],
     "benefits": [
@@ -1633,7 +1633,7 @@ export const BRANDS = [
       "Performance that transfers to lifestyle — runners appreciate the engineering even outside running contexts.",
       "Lifestyle credibility — performance footwear that looks genuinely contemporary and stylish."
     ],
-    "whyPopular": "On Running sponsors professional runners and is worn by serious athletes globally. The brand is growing rapidly with strong community engagement. Innovation focus attracts performance-prioritizing consumers.",
+    "whyPopular": "On Running sponsors professional runners and is worn by serious athletes globally. The brand is growing rapidly with strong community engagement. Innovation focus attracts performance-prioritising consumers.",
     "sellingPoints": [
       "On Running was founded by athletes and engineers — the innovation is genuine, not marketing. That Swiss approach to precision engineering matters in athletic footwear.",
       "David Jones carrying On reflects how the brand crossed from specialist performance to lifestyle recognition — that's earned, not given.",
@@ -1668,7 +1668,7 @@ export const BRANDS = [
     "features": [
       "Hand-finished Spanish leather with premium construction techniques passed down through generations of Valencian shoemakers.",
       "Refined minimalist silhouettes with perfect proportions — no excess, just essential elegance.",
-      "Sophisticated color palettes and finishes that enhance rather than dominate; the beauty is in the details and the leather quality."
+      "Sophisticated colour palettes and finishes that enhance rather than dominate; the beauty is in the details and the leather quality."
     ],
     "benefits": [
       "Quiet luxury that signals refined taste without shouting — these shoes make you look more put-together and intentional with your style choices.",
@@ -1750,7 +1750,7 @@ export const BRANDS = [
     "sizeMin": 5,
     "sizeMax": 13,
     "features": [
-      "Performance-engineered athletic technology optimized for activity and comfort.",
+      "Performance-engineered athletic technology optimised for activity and comfort.",
       "Lightweight construction designed for movement efficiency.",
       "Contemporary silhouettes that work for fitness and lifestyle."
     ],
@@ -1781,7 +1781,7 @@ export const BRANDS = [
       "Premium brand with focus on quality and design."
     ],
     "price": "AUD $120 – $380",
-    "targetMarket": "Women aged 25–70 who value comfort, quality Australian design and understated style. Professionals and comfort-prioritizing women.",
+    "targetMarket": "Women aged 25–70 who value comfort, quality Australian design and understated style. Professionals and comfort-prioritising women.",
     "sizeRange": {
       "au": "5 – 12",
       "eu": "36 – 43",
@@ -1801,7 +1801,7 @@ export const BRANDS = [
       "Comfort that doesn't sacrifice style — genuinely wearable designs.",
       "Quality that justifies investment — Australian brand reputation for durability."
     ],
-    "whyPopular": "Siren is established in Australian retail with multi-generational loyalty. The brand appeals to comfort-prioritizing consumers. Australian heritage creates local affinity.",
+    "whyPopular": "Siren is established in Australian retail with multi-generational loyalty. The brand appeals to comfort-prioritising consumers. Australian heritage creates local affinity.",
     "sellingPoints": [
       "Siren is genuine Australian heritage in footwear — decades of experience designing for Australian lifestyle.",
       "David Jones carrying Siren reflects the brand's established quality positioning in Australian retail.",
@@ -1835,7 +1835,7 @@ export const BRANDS = [
     "sizeMax": 13,
     "features": [
       "Comfort-tech cushioning systems engineered for all-day support and response.",
-      "Lightweight, breathable construction optimized for activity and comfort.",
+      "Lightweight, breathable construction optimised for activity and comfort.",
       "Contemporary casual silhouettes designed for lifestyle use."
     ],
     "benefits": [
@@ -1843,7 +1843,7 @@ export const BRANDS = [
       "Lightweight design that reduces fatigue even with extended wear.",
       "Casual style that works for lifestyle and activity without feeling costume-y."
     ],
-    "whyPopular": "Skechers is available globally at major retailers. The brand appeals to comfort-prioritizing consumers across age ranges. Comfort credibility from product performance creates loyalty.",
+    "whyPopular": "Skechers is available globally at major retailers. The brand appeals to comfort-prioritising consumers across age ranges. Comfort credibility from product performance creates loyalty.",
     "sellingPoints": [
       "Skechers has been innovating comfort technology since 1992 — that's 30+ years of engineering investment in foot support.",
       "David Jones carrying Skechers means you have access to tested comfort innovation from a global leader.",
@@ -1971,7 +1971,7 @@ export const BRANDS = [
     ],
     "whyPopular": "Stuart Weitzman is stocked at Saks Fifth Avenue, Neiman Marcus, Harrods and major luxury retailers globally. The designer is featured in fashion editorials and worn by celebrities and fashion leaders. New collections are highly anticipated, and certain styles become instant classics. The brand appeals to luxury consumers who want contemporary vision alongside heritage craftsmanship.",
     "sellingPoints": [
-      "Stuart Weitzman bridges American design innovation and European craftsmanship in a way that's genuinely rare. David Jones carrying the brand means you're shopping where innovation in luxury footwear is recognized and supported.",
+      "Stuart Weitzman bridges American design innovation and European craftsmanship in a way that's genuinely rare. David Jones carrying the brand means you're shopping where innovation in luxury footwear is recognised and supported.",
       "These are fashion-forward enough to feel current, but the designer's track record means they won't feel dated in two seasons. That's a level of design maturity that matters.",
       "Limited styles and seasonal exclusives can sell quickly. If you've connected with a Stuart Weitzman design today, it's worth committing while the range is full."
     ]
@@ -2137,7 +2137,7 @@ export const BRANDS = [
       "Timeless design that never requires updating — UGGs are as relevant now as in",
       "Australian heritage authenticity in materials and original innovation."
     ],
-    "whyPopular": "UGG is available globally and is one of the most recognized Australian brands internationally. The brand is worn by celebrities and style icons. Comfort credibility from widespread adoption creates legitimacy.",
+    "whyPopular": "UGG is available globally and is one of the most recognised Australian brands internationally. The brand is worn by celebrities and style icons. Comfort credibility from widespread adoption creates legitimacy.",
     "sellingPoints": [
       "UGG is genuine Australian heritage in sheepskin footwear — founded by an Australian surfer in 1978 and now a global icon.",
       "David Jones carrying UGG means you have access to authentic Australian sheepskin comfort footwear.",
@@ -2171,13 +2171,13 @@ export const BRANDS = [
     "sizeMax": 12,
     "features": [
       "Organic and sustainable materials including wild rubber sourcing directly from Amazon communities.",
-      "Ethical manufacturing in Brazil with transparent supply chains and fair labor.",
+      "Ethical manufacturing in Brazil with transparent supply chains and fair labour.",
       "Contemporary minimalist silhouettes designed for longevity."
     ],
     "benefits": [
       "Guilt-free luxury — the entire supply chain aligns with environmental and ethical values.",
       "Beautiful design that doesn't require compromise — sustainability and style go hand-in-hand.",
-      "Social impact — every purchase supports sustainable practices and fair labor."
+      "Social impact — every purchase supports sustainable practices and fair labour."
     ],
     "whyPopular": "Veja is stocked at luxury retailers globally and featured in fashion editorials. The brand appeals to environmentally conscious luxury consumers. Celebrity and influencer adoption drives awareness. The brand has cult-like following from values-aligned consumers.",
     "sellingPoints": [
