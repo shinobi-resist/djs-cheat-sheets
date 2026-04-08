@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="theme-color" content="#000000">
+  <title>DJS Brand Cheat Sheets</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+
+  <!-- M3 Web Components (bundled locally for reliability) -->
+  <script type="module" src="m3-bundle.js"></script>
+
+  <style>
+    /* M3 Theme Tokens — David Jones Black & White */
+    :root {
+      --md-sys-color-primary: #000000;
+      --md-sys-color-on-primary: #FFFFFF;
+      --md-sys-color-primary-container: #E0E0E0;
+      --md-sys-color-on-primary-container: #000000;
+      --md-sys-color-surface: #FFFFFF;
+      --md-sys-color-on-surface: #1C1B1F;
+      --md-sys-color-surface-container: #F5F5F5;
+      --md-sys-color-surface-container-high: #EEEEEE;
+      --md-sys-color-outline: #79747E;
+      --md-sys-color-outline-variant: #CAC4D0;
+      --md-ref-typeface-plain: 'Arial', sans-serif;
+      --md-ref-typeface-brand: 'Playfair Display', serif;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #FFFFFF;
+      color: #1C1B1F;
+      min-height: 100vh;
+      padding-top: 56px; /* header height */
+    }
+
+    /* === HEADER === */
+    .app-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: #000;
+      color: #FFF;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      gap: 8px;
+    }
+
+    .app-header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 400;
+      flex: 1;
+    }
+
+    .back-btn {
+      display: none;
+      align-items: center;
+      gap: 4px;
+      background: none;
+      border: none;
+      color: #FFF;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      cursor: pointer;
+      padding: 8px;
+      min-height: 44px;
+      min-width: 44px;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .back-btn .material-symbols-outlined {
+      font-size: 24px;
+    }
+
+    .detail-active .back-btn { display: flex; }
+    .detail-active .header-title-list { display: none; }
+
+    .header-title-detail {
+      display: none;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      font-weight: 400;
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .detail-active .header-title-detail { display: block; }
+
+    /* === LIST VIEW === */
+    #list-view {
+      padding: 16px;
+      padding-bottom: 80px; /* space for FAB */
+    }
+
+    .search-container {
+      margin-bottom: 12px;
+    }
+
+    .search-container md-outlined-text-field {
+      width: 100%;
+      --md-outlined-text-field-container-shape: 28px;
+    }
+
+    .chip-scroller {
+      overflow-x: auto;
+      white-space: nowrap;
+      margin-bottom: 12px;
+      padding-bottom: 4px;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .chip-scroller::-webkit-scrollbar { display: none; }
+
+    md-filter-chip {
+      --md-filter-chip-container-height: 36px;
+    }
+
+    .results-count {
+      font-size: 13px;
+      color: #79747E;
+      margin-bottom: 8px;
+      padding-left: 4px;
+    }
+
+    #brand-list md-list-item {
+      cursor: pointer;
+      --md-list-item-one-line-container-height: 56px;
+      --md-list-item-two-line-container-height: 72px;
+    }
+
+    .trailing-icon {
+      color: #79747E;
+      font-size: 20px;
+    }
+
+    /* Skeleton loading */
+    .skeleton {
+      background: linear-gradient(90deg, #F0F0F0 25%, #E0E0E0 50%, #F0F0F0 75%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 8px;
+      height: 72px;
+      margin-bottom: 4px;
+    }
+
+    @keyframes shimmer {
+      0% { background-position: 200% 0; }
+      100% { background-position: -200% 0; }
+    }
+
+    /* === DETAIL VIEW === */
+    #detail-view {
+      display: none;
+      padding: 16px;
+      padding-bottom: 40px;
+    }
+
+    .detail-active #list-view { display: none; }
+    .detail-active #detail-view { display: block; }
+
+    .dept-badge {
+      display: inline-block;
+      background: #F0F0F0;
+      color: #000;
+      padding: 4px 12px;
+      border-radius: 16px;
+      font-size: 13px;
+      margin-bottom: 16px;
+    }
+
+    .brand-tagline {
+      font-size: 14px;
+      color: #79747E;
+      margin-bottom: 16px;
+      font-style: italic;
+    }
+
+    .section-card {
+      background: #FFFFFF;
+      border: 1px solid #E0E0E0;
+      border-radius: 12px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+
+    .section-header {
+      background: #000;
+      color: #FFF;
+      padding: 10px 16px;
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .section-body {
+      padding: 16px;
+    }
+
+    .kv-row {
+      margin-bottom: 8px;
+    }
+
+    .kv-label {
+      font-weight: 700;
+      font-size: 14px;
+    }
+
+    .kv-value {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .culture-para {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 12px;
+    }
+
+    .culture-para:last-child { margin-bottom: 0; }
+
+    /* Features & Benefits side-by-side on wider screens */
+    .fb-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+
+    @media (min-width: 600px) {
+      .fb-grid { grid-template-columns: 1fr 1fr; }
+    }
+
+    .fb-column h3 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+      color: #000;
+    }
+
+    .fb-item {
+      font-size: 14px;
+      line-height: 1.5;
+      margin-bottom: 12px;
+      padding-left: 0;
+    }
+
+    .fb-item:last-child { margin-bottom: 0; }
+
+    .fb-num {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      background: #000;
+      color: #FFF;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 24px;
+      font-size: 12px;
+      font-weight: 700;
+      margin-right: 8px;
+      flex-shrink: 0;
+      vertical-align: top;
+    }
+
+    .popular-text {
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* Selling Points — accent card */
+    .section-card.selling {
+      border-color: #000;
+      border-width: 2px;
+    }
+
+    .sp-item {
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+      padding-left: 32px;
+      position: relative;
+    }
+
+    .sp-item:last-child { margin-bottom: 0; }
+
+    .sp-num {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 24px;
+      height: 24px;
+      background: #000;
+      color: #FFF;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 24px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    /* === FAB === */
+    .fab-container {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 50;
+    }
+
+    .detail-active .fab-container { display: none; }
+
+    md-fab {
+      --md-fab-container-color: #000;
+      --md-fab-icon-color: #FFF;
+      --md-fab-label-text-color: #FFF;
+    }
+
+    /* === EMPTY STATE === */
+    .empty-state {
+      text-align: center;
+      padding: 48px 16px;
+      color: #79747E;
+    }
+
+    .empty-state .material-symbols-outlined {
+      font-size: 48px;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .empty-state p {
+      font-size: 16px;
+    }
+
+    /* Hide detail FAB */
+    .detail-active .fab-container { display: none; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="app-header">
+    <button class="back-btn" id="back-btn" aria-label="Back to list">
+      <span class="material-symbols-outlined">arrow_back</span>
+      <span>Back</span>
+    </button>
+    <h1 class="header-title-list">DJS Brand Cheat Sheets</h1>
+    <span class="header-title-detail" id="header-brand-name"></span>
+  </header>
+
+  <!-- List View -->
+  <div id="list-view">
+    <div class="search-container">
+      <md-outlined-text-field
+        id="search-field"
+        label="Search brands"
+        type="search"
+        placeholder="Type a brand name..."
+      >
+        <md-icon slot="leading-icon">search</md-icon>
+      </md-outlined-text-field>
+    </div>
+
+    <div class="chip-scroller">
+      <md-chip-set id="filter-chips">
+        <md-filter-chip label="All" selected id="chip-all"></md-filter-chip>
+        <md-filter-chip label="Designer" id="chip-designer"></md-filter-chip>
+        <md-filter-chip label="Contemporary" id="chip-contemporary"></md-filter-chip>
+        <md-filter-chip label="Fashion 5238" id="chip-fashion"></md-filter-chip>
+        <md-filter-chip label="Modern 5288" id="chip-modern"></md-filter-chip>
+        <md-filter-chip label="Concessions" id="chip-concessions"></md-filter-chip>
+      </md-chip-set>
+    </div>
+
+    <div class="results-count" id="results-count"></div>
+
+    <md-list id="brand-list"></md-list>
+  </div>
+
+  <!-- Detail View -->
+  <div id="detail-view"></div>
+
+  <!-- FAB: View All Brands -->
+  <div class="fab-container" id="fab-container">
+    <md-fab label="All Brands" id="all-brands-fab">
+      <md-icon slot="icon">menu_book</md-icon>
+    </md-fab>
+  </div>
+
+  <script type="module">
+    import { BRANDS } from './brands.js';
+
+    // State
+    let activeFilter = 'All';
+    let searchQuery = '';
+
+    // DOM refs
+    const searchField = document.getElementById('search-field');
+    const brandList = document.getElementById('brand-list');
+    const resultsCount = document.getElementById('results-count');
+    const detailView = document.getElementById('detail-view');
+    const headerBrandName = document.getElementById('header-brand-name');
+    const backBtn = document.getElementById('back-btn');
+    const allBrandsFab = document.getElementById('all-brands-fab');
+
+    // Filter chips
+    const chips = {
+      'All': document.getElementById('chip-all'),
+      'Designer': document.getElementById('chip-designer'),
+      'Contemporary': document.getElementById('chip-contemporary'),
+      'Fashion 5238': document.getElementById('chip-fashion'),
+      'Modern 5288': document.getElementById('chip-modern'),
+      'Concessions': document.getElementById('chip-concessions'),
+    };
+
+    function getFilteredBrands() {
+      return BRANDS.filter(b => {
+        const matchesDept = activeFilter === 'All' || b.department === activeFilter;
+        const matchesSearch = !searchQuery ||
+          b.name.toLowerCase().includes(searchQuery.toLowerCase());
+        return matchesDept && matchesSearch;
+      });
+    }
+
+    function renderList() {
+      const filtered = getFilteredBrands();
+      resultsCount.textContent = `${filtered.length} brand${filtered.length !== 1 ? 's' : ''}`;
+
+      if (filtered.length === 0) {
+        brandList.innerHTML = `
+          <div class="empty-state">
+            <span class="material-symbols-outlined">search_off</span>
+            <p>No brands found</p>
+          </div>
+        `;
+        return;
+      }
+
+      brandList.innerHTML = filtered.map(brand => `
+        <md-list-item type="button" data-brand-id="${brand.id}">
+          <span slot="headline">${brand.name}</span>
+          <span slot="supporting-text">${getDeptFullName(brand.department)}</span>
+          <span slot="end" class="material-symbols-outlined trailing-icon">chevron_right</span>
+        </md-list-item>
+      `).join('');
+
+      // Click handlers
+      brandList.querySelectorAll('md-list-item').forEach(item => {
+        item.addEventListener('click', () => {
+          const id = item.dataset.brandId;
+          window.location.hash = `#/${id}`;
+        });
+      });
+    }
+
+    function getDeptFullName(dept) {
+      const map = {
+        'Designer': "Women's Designer Shoes",
+        'Contemporary': "Women's Contemporary",
+        'Fashion 5238': "Women's Fashion 5238",
+        'Modern 5288': "Women's Modern 5288",
+        'Concessions': 'Concessions',
+      };
+      return map[dept] || dept;
+    }
+
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
+    function renderDetail(brand) {
+      headerBrandName.textContent = brand.name;
+      document.body.classList.add('detail-active');
+      window.scrollTo(0, 0);
+
+      detailView.innerHTML = `
+        <span class="dept-badge">${getDeptFullName(brand.department)}</span>
+        ${brand.tagline ? `<div class="brand-tagline">${escapeHtml(brand.tagline)}</div>` : ''}
+
+        <!-- History & Origins -->
+        <div class="section-card">
+          <div class="section-header">Brand History & Origins</div>
+          <div class="section-body">
+            ${brand.history.founded ? `<div class="kv-row"><span class="kv-label">Founded:</span> <span class="kv-value">${escapeHtml(brand.history.founded)}</span></div>` : ''}
+            ${brand.history.origin ? `<div class="kv-row"><span class="kv-label">Origin:</span> <span class="kv-value">${escapeHtml(brand.history.origin)}</span></div>` : ''}
+            ${brand.history.manufactured ? `<div class="kv-row"><span class="kv-label">Manufactured In:</span> <span class="kv-value">${escapeHtml(brand.history.manufactured)}</span></div>` : ''}
+          </div>
+        </div>
+
+        <!-- Culture & Identity -->
+        <div class="section-card">
+          <div class="section-header">Brand Culture & Identity</div>
+          <div class="section-body">
+            ${(Array.isArray(brand.culture) ? brand.culture : [brand.culture])
+              .map(p => `<p class="culture-para">${escapeHtml(p)}</p>`).join('')}
+          </div>
+        </div>
+
+        <!-- Features & Benefits -->
+        <div class="section-card">
+          <div class="section-header">Features & Benefits</div>
+          <div class="section-body">
+            <div class="fb-grid">
+              <div class="fb-column">
+                <h3>Key Features</h3>
+                ${brand.features.map((f, i) => `
+                  <div class="fb-item"><span class="fb-num">${i + 1}</span>${escapeHtml(f)}</div>
+                `).join('')}
+              </div>
+              <div class="fb-column">
+                <h3>Key Benefits</h3>
+                ${brand.benefits.map((b, i) => `
+                  <div class="fb-item"><span class="fb-num">${i + 1}</span>${escapeHtml(b)}</div>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Price & Target Market + Size Range -->
+        <div class="section-card">
+          <div class="section-header">Price, Target Market & Size Range</div>
+          <div class="section-body">
+            ${brand.price ? `<div class="kv-row"><span class="kv-label">Price Point:</span> <span class="kv-value">${escapeHtml(brand.price)}</span></div>` : ''}
+            ${brand.targetMarket ? `<div class="kv-row"><span class="kv-label">Target Market:</span> <span class="kv-value">${escapeHtml(brand.targetMarket)}</span></div>` : ''}
+            ${brand.sizeRange.au ? `<div class="kv-row"><span class="kv-label">Australian Sizes:</span> <span class="kv-value">${escapeHtml(brand.sizeRange.au)}</span></div>` : ''}
+            ${brand.sizeRange.eu ? `<div class="kv-row"><span class="kv-label">European Sizes:</span> <span class="kv-value">${escapeHtml(brand.sizeRange.eu)}</span></div>` : ''}
+          </div>
+        </div>
+
+        <!-- Why Popular -->
+        <div class="section-card">
+          <div class="section-header">Why Is This Brand Popular?</div>
+          <div class="section-body">
+            <p class="popular-text">${escapeHtml(brand.whyPopular)}</p>
+          </div>
+        </div>
+
+        <!-- Selling Points -->
+        <div class="section-card selling">
+          <div class="section-header">Selling Points</div>
+          <div class="section-body">
+            ${brand.sellingPoints.map((sp, i) => `
+              <div class="sp-item"><span class="sp-num">${i + 1}</span>${escapeHtml(sp)}</div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+    }
+
+    function showList() {
+      document.body.classList.remove('detail-active');
+      window.location.hash = '';
+    }
+
+    // === Event Listeners ===
+
+    // Search
+    searchField.addEventListener('input', () => {
+      searchQuery = searchField.value;
+      renderList();
+    });
+
+    // Filter chips
+    Object.entries(chips).forEach(([dept, chip]) => {
+      chip.addEventListener('click', () => {
+        // Deselect all, select this one
+        Object.values(chips).forEach(c => c.selected = false);
+        chip.selected = true;
+        activeFilter = dept;
+        renderList();
+      });
+    });
+
+    // Back button
+    backBtn.addEventListener('click', showList);
+
+    // All Brands FAB — show all brands in list (clear filters)
+    allBrandsFab.addEventListener('click', () => {
+      activeFilter = 'All';
+      searchQuery = '';
+      searchField.value = '';
+      Object.values(chips).forEach(c => c.selected = false);
+      chips['All'].selected = true;
+      renderList();
+      window.scrollTo(0, 0);
+    });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      // Cmd+K or / to focus search (when not already in an input)
+      if ((e.metaKey && e.key === 'k') || (e.key === '/' && e.target.tagName !== 'INPUT' && e.target.tagName !== 'MD-OUTLINED-TEXT-FIELD')) {
+        e.preventDefault();
+        searchField.focus();
+      }
+      // Escape to go back
+      if (e.key === 'Escape' && document.body.classList.contains('detail-active')) {
+        showList();
+      }
+    });
+
+    // Hash routing
+    function handleRoute() {
+      const hash = window.location.hash;
+      if (hash.startsWith('#/') && hash.length > 2) {
+        const brandId = hash.substring(2);
+        const brand = BRANDS.find(b => b.id === brandId);
+        if (brand) {
+          renderDetail(brand);
+          return;
+        }
+      }
+      // Default: show list
+      document.body.classList.remove('detail-active');
+    }
+
+    window.addEventListener('hashchange', handleRoute);
+
+    // Initial render
+    renderList();
+    handleRoute();
+  </script>
+
+</body>
+</html>
