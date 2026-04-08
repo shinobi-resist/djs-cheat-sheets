@@ -222,6 +222,12 @@ async function processDOCX(filePath, brandName) {
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '');
 
+  // Parse AU size range into integers for filtering
+  const auMinMatch = sizeRange.au.match(/^(\d+)/);
+  const auMaxMatch = sizeRange.au.match(/(\d+)\s*$/);
+  const sizeMin = auMinMatch ? parseInt(auMinMatch[1]) : 0;
+  const sizeMax = auMaxMatch ? parseInt(auMaxMatch[1]) : 0;
+
   return {
     id,
     name: brandName,
@@ -232,6 +238,8 @@ async function processDOCX(filePath, brandName) {
     price,
     targetMarket,
     sizeRange,
+    sizeMin,
+    sizeMax,
     features,
     benefits,
     whyPopular,

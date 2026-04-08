@@ -22,6 +22,8 @@ export const BRANDS = [
       "au": "5 – 10",
       "eu": "36 – 41"
     },
+    "sizeMin": 5,
+    "sizeMax": 10,
     "features": [
       "Full-grain leather uppers crafted in premier European workshops — the same facilities used by top-tier luxury brands, producing leather that softens and develops a unique patina over time",
       "Architectural minimalist silhouettes with clean lines and perfect proportions — designed to transcend seasons rather than follow them",
@@ -59,6 +61,8 @@ export const BRANDS = [
       "au": "5 – 10",
       "eu": "36 – 41"
     },
+    "sizeMin": 5,
+    "sizeMax": 10,
     "features": [
       "Handcrafted from premium European leather — soft, supple leather uppers that mold to your foot over time, creating a custom fit unique to you.",
       "Bauhaus-inspired minimalist silhouettes — clean lines, perfect proportions, designed to last decades not seasons.",
@@ -96,6 +100,8 @@ export const BRANDS = [
       "au": "5 – 11",
       "eu": "36 – 42"
     },
+    "sizeMin": 5,
+    "sizeMax": 11,
     "features": [
       "Contemporary silhouettes with architectural detailing and innovative construction — designs that feel fresh and modern while maintaining wearability.",
       "Premium fabrics including supple leathers, fine textiles and quality materials that feel exceptional to wear.",
@@ -133,6 +139,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Trend-responsive design that translates runway concepts and fashion directions into wearable styles.",
       "Quality material selection reflecting contemporary fashion standards.",
@@ -170,6 +178,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Contemporary architectural silhouettes with innovative construction techniques.",
       "Premium materials including European leathers and experimental fabrics.",
@@ -207,6 +217,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Vegan leather alternatives made from innovative materials that perform and feel like premium leather without animal products.",
       "Minimalist contemporary designs that work across seasons and styles.",
@@ -244,6 +256,8 @@ export const BRANDS = [
       "au": "5 – 10",
       "eu": "36 – 41"
     },
+    "sizeMin": 5,
+    "sizeMax": 10,
     "features": [
       "Hand-embellished Italian leather with intricate detailing — each pair features careful craftsmanship with hand-stitching, beading or artistic finishing that makes every shoe unique.",
       "Statement silhouettes with architectural heels and sculptural forms — designed to be noticed and admired.",
@@ -281,6 +295,8 @@ export const BRANDS = [
       "au": "5 – 10",
       "eu": "36 – 41"
     },
+    "sizeMin": 5,
+    "sizeMax": 10,
     "features": [
       "Swiss-engineered construction with precisely calibrated comfort — every measurement, heel height and sole thickness is optimized for all-day wearability.",
       "Premium leather sourced from the finest European tanneries — vegetable-tanned leather that softens naturally with wear.",
@@ -318,6 +334,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Contoured cork and latex footbed developed over generations to support natural foot anatomy.",
       "Durable leather uppers that soften and mold to your foot over time.",
@@ -355,6 +373,8 @@ export const BRANDS = [
       "au": "5 – 10",
       "eu": "36 – 41"
     },
+    "sizeMin": 5,
+    "sizeMax": 10,
     "features": [
       "Refined minimalist silhouettes — ballet flats, simple pumps, elegant sandals with no excess detail, just perfect proportion.",
       "Premium French leather and materials sourced from respected European suppliers.",
@@ -392,6 +412,8 @@ export const BRANDS = [
       "au": "5 – 11",
       "eu": "36 – 42"
     },
+    "sizeMin": 5,
+    "sizeMax": 11,
     "features": [
       "Statement-focused silhouettes with embellishments and sculptural design — heels meant to be noticed.",
       "Fashion-forward detailing including beading, intricate stitching and artistic elements.",
@@ -429,6 +451,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Trend-responsive design that translates runway concepts into wearable styles.",
       "Accessible material quality that reflects contemporary fashion curation.",
@@ -466,6 +490,8 @@ export const BRANDS = [
       "au": "5 – 10",
       "eu": "36 – 41"
     },
+    "sizeMin": 5,
+    "sizeMax": 10,
     "features": [
       "Design-forward silhouettes with contemporary details — statement buckles, artful draping, subtle embellishments that elevate beyond basic.",
       "Premium leather and luxury materials with meticulous attention to detail — every stitch and seam serves the overall design.",
@@ -503,6 +529,8 @@ export const BRANDS = [
       "au": "5 – 11",
       "eu": "36 – 42"
     },
+    "sizeMin": 5,
+    "sizeMax": 11,
     "features": [
       "Iconic red sole signature — instantly recognizable mark of Louboutin luxury globally.",
       "Hand-constructed Italian heels with premium exotic leathers and materials.",
@@ -540,6 +568,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "Iconic silhouette unchanged in essential design since 1917 — proof of perfect design.",
       "Canvas construction that's breathable, flexible and improves with wear.",
@@ -577,6 +607,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "Proprietary Croslite foam technology that's lightweight, cushioned and ergonomic.",
       "Ventilation holes for breathability and quick drying.",
@@ -614,6 +646,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered construction with supportive design.",
       "Australian quality materials and workmanship.",
@@ -651,6 +685,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered construction with supportive design developed through decades of expertise.",
       "Premium materials reflecting Australian quality standards.",
@@ -688,6 +724,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered construction developed through 60+ years of innovation — advanced support systems and cushioning technology.",
       "Premium leather sourced directly by the brand for quality control.",
@@ -725,6 +763,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Authentic Australian sheepskin with water-resistant treatment — natural insulation and breathability.",
       "Australian manufacturing with direct sheepskin sourcing.",
@@ -762,6 +802,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered construction with supportive design from decades of expertise.",
       "Australian quality materials and craftsmanship.",
@@ -799,6 +841,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "Comfort-engineered construction refined through 70 years of experience.",
       "Australian manufacturing with quality materials.",
@@ -836,6 +880,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Branded contemporary design with signature Guess elements.",
       "Trendy silhouettes that respond to current fashion directions.",
@@ -873,6 +919,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered construction from 115+ years of Austrian expertise.",
       "Premium European leather and materials reflecting Austrian quality standards.",
@@ -910,6 +958,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered construction designed specifically for professional women.",
       "Premium materials reflecting Australian quality standards.",
@@ -947,6 +997,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered construction refined through 65 years of expertise.",
       "Quality materials reflecting American manufacturing standards.",
@@ -984,6 +1036,8 @@ export const BRANDS = [
       "au": "5 – 10",
       "eu": "36 – 41"
     },
+    "sizeMin": 5,
+    "sizeMax": 10,
     "features": [
       "Hand-constructed heels with Italian leather and premium materials — each heel is engineered for both elegance and wearability.",
       "Iconic heel designs that have become industry standards — recognizable silhouettes that are enviable and timeless.",
@@ -1021,6 +1075,8 @@ export const BRANDS = [
       "au": "5 – 11",
       "eu": "36 – 42"
     },
+    "sizeMin": 5,
+    "sizeMax": 11,
     "features": [
       "Fashion-forward design curated with editorial perspective — pieces chosen for design significance.",
       "Branded contemporary silhouettes that reflect current fashion directions.",
@@ -1058,6 +1114,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Heritage tennis aesthetic with refined contemporary updates.",
       "Quality materials reflecting French design standards.",
@@ -1095,6 +1153,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Contemporary silhouettes with refined details and architectural construction.",
       "Premium material selection and thoughtful finishes.",
@@ -1132,6 +1192,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Handcrafted designs with innovative materials and construction techniques — artistic approach to shoemaking that prioritizes expression and wearability equally.",
       "Limited edition and bespoke options — many styles are produced in small quantities, making them genuinely exclusive.",
@@ -1169,6 +1231,8 @@ export const BRANDS = [
       "au": "5 – 11",
       "eu": "36 – 42"
     },
+    "sizeMin": 5,
+    "sizeMax": 11,
     "features": [
       "Hand-constructed heels using premium European leather and materials — each heel is individually crafted with meticulous attention to every detail.",
       "Signature sculptural heel shapes that are instantly recognizable and have become industry icons.",
@@ -1206,6 +1270,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered construction with contoured insoles and flexible soles designed for all-day urban wear.",
       "Contemporary styling that works in professional and casual settings without requiring changes.",
@@ -1243,6 +1309,8 @@ export const BRANDS = [
       "au": "5 – 11",
       "eu": "36 – 42"
     },
+    "sizeMin": 5,
+    "sizeMax": 11,
     "features": [
       "Branded contemporary silhouettes with signature Michael Kors design elements.",
       "Premium materials reflecting luxury investment.",
@@ -1280,6 +1348,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Contemporary silhouettes with signature Michael Kors design elements including logo detailing and refined proportions.",
       "Premium materials and construction that reflect the brand's heritage in luxury.",
@@ -1317,6 +1387,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered construction from 95+ years of women's footwear expertise.",
       "Premium materials reflecting American quality standards.",
@@ -1354,6 +1426,8 @@ export const BRANDS = [
       "au": "6 – 10",
       "eu": "36 – 40"
     },
+    "sizeMin": 6,
+    "sizeMax": 10,
     "features": [
       "LWG-certified vegetable-tanned leather uppers (no chrome-tanning, lower chemical impact) — leather that softens and develops unique patina over time.",
       "Handcrafted construction with memory foam insoles, YKK metal zips, grosgrain topline details — every element is chosen for quality and durability.",
@@ -1391,6 +1465,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "Performance-engineered cushioning technology optimized for impact absorption and energy return.",
       "Supportive midsole construction with proven athletic performance standards.",
@@ -1428,6 +1504,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "CloudTech cushioning technology — innovative responsive cushioning that sets the brand apart.",
       "Lightweight design optimized for running and active movement.",
@@ -1465,6 +1543,8 @@ export const BRANDS = [
       "au": "5 – 10",
       "eu": "36 – 41"
     },
+    "sizeMin": 5,
+    "sizeMax": 10,
     "features": [
       "Hand-finished Spanish leather with premium construction techniques passed down through generations of Valencian shoemakers.",
       "Refined minimalist silhouettes with perfect proportions — no excess, just essential elegance.",
@@ -1502,6 +1582,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "Performance-engineered athletic construction with comfort technology.",
       "Style-forward contemporary silhouettes that work for lifestyle and performance.",
@@ -1539,6 +1621,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "Performance-engineered athletic technology optimized for activity and comfort.",
       "Lightweight construction designed for movement efficiency.",
@@ -1576,6 +1660,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Comfort-engineered design with supportive construction.",
       "Quality materials reflecting Australian design standards.",
@@ -1613,6 +1699,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "Comfort-tech cushioning systems engineered for all-day support and response.",
       "Lightweight, breathable construction optimized for activity and comfort.",
@@ -1650,6 +1738,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Iconic boat shoe design with traction-gripping rubber soles developed for wet conditions — practical engineering that defined a category.",
       "Premium leather uppers and quality construction that improve with age.",
@@ -1687,6 +1777,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Trend-responsive design that reflects current fashion directions.",
       "Fashion-forward silhouettes and details that feel contemporary.",
@@ -1724,6 +1816,8 @@ export const BRANDS = [
       "au": "5 – 11",
       "eu": "36 – 42"
     },
+    "sizeMin": 5,
+    "sizeMax": 11,
     "features": [
       "Innovation-led design with premium materials including exotic leathers, fine suedes and cutting-edge textiles — materials are sourced globally for quality and uniqueness.",
       "Sophisticated construction combining traditional shoemaking with contemporary design techniques.",
@@ -1761,6 +1855,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "Iconic canvas plimsoll design unchanged in essentials since 1911 — proof of perfect design.",
       "Italian construction with quality materials and craftsmanship.",
@@ -1798,6 +1894,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Classic American aesthetic with contemporary silhouette updates.",
       "Branded heritage elements that are instantly recognizable.",
@@ -1835,6 +1933,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Contemporary silhouettes with fashion-forward details and architectural construction.",
       "Premium material selection and thoughtful finishing.",
@@ -1872,6 +1972,8 @@ export const BRANDS = [
       "au": "5 – 13",
       "eu": "36 – 45"
     },
+    "sizeMin": 5,
+    "sizeMax": 13,
     "features": [
       "Authentic Australian sheepskin with water-resistant treatment — natural insulation and temperature regulation.",
       "Comfortable construction designed for extended wear and lifestyle use.",
@@ -1909,6 +2011,8 @@ export const BRANDS = [
       "au": "5 – 12",
       "eu": "36 – 43"
     },
+    "sizeMin": 5,
+    "sizeMax": 12,
     "features": [
       "Organic and sustainable materials including wild rubber sourcing directly from Amazon communities.",
       "Ethical manufacturing in Brazil with transparent supply chains and fair labor.",

@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="theme-color" content="#000000">
-  <title>DJS Brand Cheat Sheets</title>
+  <title>DJs Brand Cheat Sheets</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -148,6 +148,40 @@
     .trailing-icon {
       color: #79747E;
       font-size: 20px;
+    }
+
+    /* Size badge on list items */
+    .size-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 12px;
+      background: #F0F0F0;
+      color: #79747E;
+      white-space: nowrap;
+      margin-right: 4px;
+    }
+
+    .size-badge.extended {
+      background: #000;
+      color: #FFF;
+      font-weight: 700;
+    }
+
+    .list-end-area {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Size filter label */
+    .filter-label {
+      font-size: 12px;
+      color: #79747E;
+      padding-left: 4px;
+      margin-bottom: 4px;
     }
 
     /* Skeleton loading */
@@ -362,7 +396,7 @@
       <span class="material-symbols-outlined">arrow_back</span>
       <span>Back</span>
     </button>
-    <h1 class="header-title-list">DJS Brand Cheat Sheets</h1>
+    <h1 class="header-title-list">DJs Brand Cheat Sheets</h1>
     <span class="header-title-detail" id="header-brand-name"></span>
   </header>
 
@@ -390,6 +424,14 @@
       </md-chip-set>
     </div>
 
+    <div class="filter-label">Size</div>
+    <div class="chip-scroller">
+      <md-chip-set id="size-chips">
+        <md-filter-chip label="Small (AU 5-6)" id="chip-small"></md-filter-chip>
+        <md-filter-chip label="Extended (AU 11+)" id="chip-extended"></md-filter-chip>
+      </md-chip-set>
+    </div>
+
     <div class="results-count" id="results-count"></div>
 
     <md-list id="brand-list"></md-list>
@@ -411,6 +453,7 @@
     // State
     let activeFilter = 'All';
     let searchQuery = '';
+    let activeSizeFilter = null; // null, 'small', or 'extended'
 
     // DOM refs
     const searchField = document.getElementById('search-field');
@@ -431,12 +474,24 @@
       'Concessions': document.getElementById('chip-concessions'),
     };
 
+    // Size chip refs
+    const sizeChips = {
+      'small': document.getElementById('chip-small'),
+      'extended': document.getElementById('chip-extended'),
+    };
+
     function getFilteredBrands() {
       return BRANDS.filter(b => {
         const matchesDept = activeFilter === 'All' || b.department === activeFilter;
         const matchesSearch = !searchQuery ||
           b.name.toLowerCase().includes(searchQuery.toLowerCase());
-        return matchesDept && matchesSearch;
+        let matchesSize = true;
+        if (activeSizeFilter === 'small') {
+          matchesSize = b.sizeMin <= 6;
+        } else if (activeSizeFilter === 'extended') {
+          matchesSize = b.sizeMax >= 11;
+        }
+        return matchesDept && matchesSearch && matchesSize;
       });
     }
 
@@ -454,13 +509,19 @@
         return;
       }
 
-      brandList.innerHTML = filtered.map(brand => `
+      brandList.innerHTML = filtered.map(brand => {
+        const isExtended = brand.sizeMax >= 11;
+        const badgeClass = isExtended ? 'size-badge extended' : 'size-badge';
+        return `
         <md-list-item type="button" data-brand-id="${brand.id}">
           <span slot="headline">${brand.name}</span>
           <span slot="supporting-text">${getDeptFullName(brand.department)}</span>
-          <span slot="end" class="material-symbols-outlined trailing-icon">chevron_right</span>
-        </md-list-item>
-      `).join('');
+          <span slot="end" class="list-end-area">
+            <span class="${badgeClass}">AU ${brand.sizeMin}-${brand.sizeMax}</span>
+            <span class="material-symbols-outlined trailing-icon">chevron_right</span>
+          </span>
+        </md-list-item>`;
+      }).join('');
 
       // Click handlers
       brandList.querySelectorAll('md-list-item').forEach(item => {
@@ -592,6 +653,23 @@
       });
     });
 
+    // Size filter chips (toggle on/off, independent of department)
+    Object.entries(sizeChips).forEach(([size, chip]) => {
+      chip.addEventListener('click', () => {
+        if (activeSizeFilter === size) {
+          // Toggle off
+          activeSizeFilter = null;
+          chip.selected = false;
+        } else {
+          // Deselect other size chip, select this one
+          Object.values(sizeChips).forEach(c => c.selected = false);
+          chip.selected = true;
+          activeSizeFilter = size;
+        }
+        renderList();
+      });
+    });
+
     // Back button
     backBtn.addEventListener('click', showList);
 
@@ -599,9 +677,11 @@
     allBrandsFab.addEventListener('click', () => {
       activeFilter = 'All';
       searchQuery = '';
+      activeSizeFilter = null;
       searchField.value = '';
       Object.values(chips).forEach(c => c.selected = false);
       chips['All'].selected = true;
+      Object.values(sizeChips).forEach(c => c.selected = false);
       renderList();
       window.scrollTo(0, 0);
     });
