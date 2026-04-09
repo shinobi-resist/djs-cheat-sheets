@@ -115,6 +115,13 @@
       padding-bottom: 24px;
     }
 
+    .filter-bar {
+      background: #F5F5F5;
+      margin: -16px -16px 16px -16px;
+      padding: 16px 16px 12px 16px;
+      border-bottom: 1px solid #E0E0E0;
+    }
+
     .search-container {
       margin-bottom: 12px;
     }
@@ -396,45 +403,47 @@
 
   <!-- List View -->
   <div id="list-view">
-    <div class="search-container">
-      <md-outlined-text-field
-        id="search-field"
-        label="Search brands"
-        type="search"
-        placeholder="Type a brand name..."
-      >
-        <md-icon slot="leading-icon">search</md-icon>
-      </md-outlined-text-field>
-    </div>
+    <div class="filter-bar">
+      <div class="search-container">
+        <md-outlined-text-field
+          id="search-field"
+          label="Search brands"
+          type="search"
+          placeholder="Type a brand name..."
+        >
+          <md-icon slot="leading-icon">search</md-icon>
+        </md-outlined-text-field>
+      </div>
 
-    <div class="chip-scroller">
-      <md-chip-set id="filter-chips">
-        <md-filter-chip label="All" selected id="chip-all"></md-filter-chip>
-        <md-filter-chip label="Designer" id="chip-designer"></md-filter-chip>
-        <md-filter-chip label="Contemporary" id="chip-contemporary"></md-filter-chip>
-        <md-filter-chip label="Fashion 5238" id="chip-fashion"></md-filter-chip>
-        <md-filter-chip label="Modern 5288" id="chip-modern"></md-filter-chip>
-        <md-filter-chip label="Concessions" id="chip-concessions"></md-filter-chip>
-      </md-chip-set>
-    </div>
+      <div class="chip-scroller">
+        <md-chip-set id="filter-chips">
+          <md-filter-chip label="All" selected id="chip-all"></md-filter-chip>
+          <md-filter-chip label="Designer" id="chip-designer"></md-filter-chip>
+          <md-filter-chip label="Contemporary" id="chip-contemporary"></md-filter-chip>
+          <md-filter-chip label="Fashion 5238" id="chip-fashion"></md-filter-chip>
+          <md-filter-chip label="Modern 5288" id="chip-modern"></md-filter-chip>
+          <md-filter-chip label="Concessions" id="chip-concessions"></md-filter-chip>
+        </md-chip-set>
+      </div>
 
-    <div class="filter-label">Size</div>
-    <div class="chip-scroller">
-      <md-chip-set id="size-chips">
-        <md-filter-chip label="Small (AU 5-6)" id="chip-small"></md-filter-chip>
-        <md-filter-chip label="Extended (AU 11+)" id="chip-extended"></md-filter-chip>
-      </md-chip-set>
-    </div>
+      <div class="filter-label">Size</div>
+      <div class="chip-scroller">
+        <md-chip-set id="size-chips">
+          <md-filter-chip label="Small (AU 5-6)" id="chip-small"></md-filter-chip>
+          <md-filter-chip label="Extended (AU 11+)" id="chip-extended"></md-filter-chip>
+        </md-chip-set>
+      </div>
 
-    <div class="filter-label">Fitting</div>
-    <div class="chip-scroller">
-      <md-chip-set id="fitting-chips">
-        <md-filter-chip label="Narrow / Runs Small" id="chip-narrow"></md-filter-chip>
-        <md-filter-chip label="Wide Available" id="chip-wide"></md-filter-chip>
-      </md-chip-set>
-    </div>
+      <div class="filter-label">Fitting</div>
+      <div class="chip-scroller">
+        <md-chip-set id="fitting-chips">
+          <md-filter-chip label="Narrow / Runs Small" id="chip-narrow"></md-filter-chip>
+          <md-filter-chip label="Wide Available" id="chip-wide"></md-filter-chip>
+        </md-chip-set>
+      </div>
 
-    <div class="results-count" id="results-count"></div>
+      <div class="results-count" id="results-count"></div>
+    </div>
 
     <md-list id="brand-list"></md-list>
   </div>
